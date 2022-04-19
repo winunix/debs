@@ -2,7 +2,7 @@ Origin: Winunix
 Label: Winunix
 Suite: stable
 Codename: jammy
-Date: Tue, 19 Apr 2022 20:51:01 UTC
+Date: Tue, 19 Apr 2022 21:37:23 UTC
 Architectures: i386 amd64
 Components: main
 Description: Debian x86-64 packages hosted on ailtonbsj github repository
@@ -10,20 +10,20 @@ MD5Sum:
  8d66ed4c4b579239d3df4492d9cb69a0 662 main/binary-i386/Packages
  e42131170753f7f088d63a6526681015 445 main/binary-i386/Packages.gz
  e28f630d5aa2711f0d3b4b4cd676d743 156 main/binary-i386/Release
- 8d66ed4c4b579239d3df4492d9cb69a0 662 main/binary-amd64/Packages
- e42131170753f7f088d63a6526681015 445 main/binary-amd64/Packages.gz
+ a19eb8caf1ce3c12dcd3a9e3b88fe6c8 1911 main/binary-amd64/Packages
+ b88d07ea4de42fc4c3d3d83b011356c8 875 main/binary-amd64/Packages.gz
  ee500f56c96b30ec48b006986560d986 157 main/binary-amd64/Release
 SHA1:
  6be2ae6965cb4a56168b592937de12e57b156d45 662 main/binary-i386/Packages
  3aa8746dc9170fe9f738b6856a1f5d343b580bef 445 main/binary-i386/Packages.gz
  0de48e20450bd03d1dc3920f21af7f1255e2211a 156 main/binary-i386/Release
- 6be2ae6965cb4a56168b592937de12e57b156d45 662 main/binary-amd64/Packages
- 3aa8746dc9170fe9f738b6856a1f5d343b580bef 445 main/binary-amd64/Packages.gz
+ 8c067f2cc1b6b39dafdfa612e5d0abfe3f45a8e4 1911 main/binary-amd64/Packages
+ ce06c355a3f10eb6383d3fd0e02e1ad5975f7da9 875 main/binary-amd64/Packages.gz
  925073ae146c606b6cd44a88832596d067c9857b 157 main/binary-amd64/Release
 SHA256:
  00a915f0e0d65a62e752893693dd90ff7ffee798cfc2a628c0c5c93f5e47d2ee 662 main/binary-i386/Packages
  01b5c329e246abd036ca45110509c6212759e7e4e5e00441ea1a77fe381c8935 445 main/binary-i386/Packages.gz
  4e172e51f58593b939be31d5a8a11c37970f0b6142ab8dd3ca6002a37df3c6ca 156 main/binary-i386/Release
- 00a915f0e0d65a62e752893693dd90ff7ffee798cfc2a628c0c5c93f5e47d2ee 662 main/binary-amd64/Packages
- 01b5c329e246abd036ca45110509c6212759e7e4e5e00441ea1a77fe381c8935 445 main/binary-amd64/Packages.gz
+ 8318d49ece6b8a05db86ba3d59657c8c51a09202a846ee49bcbd4f990298653c 1911 main/binary-amd64/Packages
+ bf899f0ee9389246bac2e4eda99b1bf8bfa5f2f5d027a8019e11a01e4b2331cf 875 main/binary-amd64/Packages.gz
  3df85ca92d20c66546eea8d0358177f5d3c18e2cbefdbd2fd9c1137128ed497a 157 main/binary-amd64/Release
