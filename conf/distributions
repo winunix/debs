@@ -1,0 +1,9 @@
+Origin: Winunix
+Label: Winunix
+Suite: stable
+Codename: jammy
+Architectures: i386 amd64
+Components: main
+Description: Debian x86-64 packages hosted on ailtonbsj github repository
+SignWith: B301C4A77E834FF61B07E5224F8B1407535BD80D
+
