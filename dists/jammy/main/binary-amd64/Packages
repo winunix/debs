@@ -46,3 +46,151 @@ MD5sum: 5f7493273e21bb6e28d13868f1c73d22
 Description:
  Lexmark Network and USB Scan Drivers PackageThis package contains the Lexmark Network and USB Scan Drivers program.This is a copyrighted package, please refer to the copyrightnotice for details about using this product.
 
+Package: python-cairo
+Source: pycairo
+Version: 1.16.2-2ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 264
+Depends: python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), libc6 (>= 2.14), libcairo2 (>= 1.14.0)
+Provides: python2.7-cairo
+Multi-Arch: same
+Homepage: http://cairographics.org/pycairo/
+Priority: optional
+Section: python
+Filename: pool/main/p/pycairo/python-cairo_1.16.2-2ubuntu2_amd64.deb
+Size: 57148
+SHA256: 2c953cfab659482f1d4ced08873956c79768a74785364aa97fee24f1654bceda
+SHA1: 14f8736443ef0e36fe0d0a8dd58b9b549931ecb6
+MD5sum: 16039eb8b24903b552766efd2a336648
+Description: Python bindings for the Cairo vector graphics library
+ This package contains modules that allow you to use the Cairo vector
+ graphics library in Python programs.
+
+Package: python-glade2
+Source: pygtk
+Version: 2.24.0-5.1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 71
+Depends: python | python2, python2, libc6 (>= 2.4), libglade2-0 (>= 1:2.6.4-2~), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.18.0), python-gtk2 (= 2.24.0-5.1ubuntu2)
+Suggests: python-gtk2-doc
+Homepage: http://www.pygtk.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygtk/python-glade2_2.24.0-5.1ubuntu2_amd64.deb
+Size: 8888
+SHA256: 1ce8575bfa8cfa2767d650ab03f3341d96d1e550bc05a0b8ce2558a65e31c95d
+SHA1: b15c4ca1a8eec2bf82de15ce7e862ee4bc6ae405
+MD5sum: 028a2e4c249faa3c9f794716d73e572c
+Description: GTK+ bindings: Glade support
+ Contains bindings for the glade library from use within Python. Glade
+ makes it very easy to create a user interface. In the target
+ application you just need to load the interface description from
+ the .glade file instead of constructing the GUI at runtime.
+ .
+ This package is deprecated, you should migrate to using
+ gobject-introspection (GIR) based python bindings instead (PyGObject).
+ https://wiki.gnome.org/Projects/PyGObject/IntrospectionPorting
+Original-Maintainer: Sebastien Bacher <seb128@debian.org>
+
+Package: python-gobject-2
+Source: pygobject-2
+Version: 2.28.6-14ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 940
+Depends: python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), libc6 (>= 2.14), libffi7 (>= 3.3~20180313), libglib2.0-0 (>= 2.41.1)
+Suggests: python-gobject-2-dbg
+Breaks: python-gobject (<< 2.90)
+Replaces: python-gobject (<< 2.90)
+Provides: python2.7-gobject, python2.7-gobject-2
+Priority: optional
+Section: oldlibs
+Filename: pool/main/p/pygobject-2/python-gobject-2_2.28.6-14ubuntu1_amd64.deb
+Size: 181516
+SHA256: ecd489f03797ffe85ebb34ae9dd1d833dbe584a54524c29977dc180ea4eebbbb
+SHA1: 86056e05aafe1ff31b876328f41a1e1ff63ccf82
+MD5sum: ac27ae04606117af54b95da8d6c609a9
+Description: deprecated static Python bindings for the GObject library
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the static Python bindings for gobject, glib, and gio.
+ These are deprecated by dynamic GObject-Introspection bindings (which are
+ provided by the python-gi package), and should not be used in newly
+ written code. These static bindings just exist to provide backwards
+ compatibility for GNOME 2 based software.
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+
+Package: python-gtk2
+Source: pygtk
+Version: 2.24.0-5.1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3349
+Depends: python | python2, python2, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.21.4), python-cairo (>= 1.0.2-1.1), python-gobject-2 (>= 2.21.3)
+Suggests: python-gtk2-doc
+Breaks: python-gtkglext1 (<< 1.1.0-7~)
+Homepage: http://www.pygtk.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygtk/python-gtk2_2.24.0-5.1ubuntu2_amd64.deb
+Size: 613488
+SHA256: 3b8550c37ae2c19aeac08e5de0b78e1387fd4bbc2405236cc7f41f8371823158
+SHA1: 7518187c12eb9d6c993bafc3ce2eff831992e268
+MD5sum: c6c181f3c0876f64d1c57e24bc998459
+Description: Python bindings for the GTK+ widget set
+ This archive contains modules that allow you to use GTK+ in Python
+ programs.
+ .
+ This package is deprecated, you should migrate to using
+ gobject-introspection (GIR) based python bindings instead (PyGObject).
+ https://wiki.gnome.org/Projects/PyGObject/IntrospectionPorting
+Original-Maintainer: Sebastien Bacher <seb128@debian.org>
+
+Package: python-libuser
+Source: libuser
+Version: 1:0.62~dfsg-0.1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 67
+Depends: python | python2, python2, libc6 (>= 2.4), libglib2.0-0 (>= 2.24.0), libuser1 (>= 1:0.60~dfsg)
+Homepage: https://fedorahosted.org/libuser/
+Priority: optional
+Section: python
+Filename: pool/main/libu/libuser/python-libuser_0.62~dfsg-0.1ubuntu2_amd64.deb
+Size: 16208
+SHA256: 83e9e0a9eb86e4ab21b1a9935c08215f6193e3e31090d9d0704235b9d38f0e4e
+SHA1: cbe5ee5335a91134f9b99155302ae3dc9475b2ff
+MD5sum: abaeedefc44659fb4289125e0b1d4c02
+Description: user and group account administration library - Python 2.7 bindings
+ The libuser library implements a standardized interface for manipulating
+ and administering user and group accounts.  The library uses pluggable
+ back-ends to interface to its data sources.
+ .
+ This package contains the Python 2.7 bindings for the library.
+Original-Maintainer: Ghe Rivero <ghe@debian.org>
+
+Package: system-config-samba-wx
+Version: 1.2.64
+Architecture: all
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 7292
+Depends: python | python-is-python2 | python2-minimal, python2, samba, python-libuser, python-glade2
+Provides: system-config-samba (= 1.2.63-0ubuntu6)
+Conflicts: system-config-samba (= 1.2.63-0ubuntu6)
+Replaces: system-config-samba (= 1.2.63-0ubuntu6)
+Priority: optional
+Section: admin
+Filename: pool/main/s/system-config-samba-wx/system-config-samba-wx_1.2.64_all.deb
+Size: 259544
+SHA256: ef018f93ba3ec77f7c66fd2acbf157714546d487030f1dab14fca13c8fae91c7
+SHA1: 16352750b855ed13c131c2f4edc07bdcc5430509
+MD5sum: 36f12ed9bc28243d0a066af2d4ca08a0
+Description: GUI for managing samba shares and users
+ system-config-samba is a graphical user interface for creating,
+ modifying, and deleting samba shares and users.
+

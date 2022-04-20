@@ -15,3 +15,23 @@ MD5sum: aa3535c18b992ed53f03a4681c506f80
 Description: Drivers for Lexmark MX722adhe Printer and Scan.
  A metapackage for installing printer and scanner drivers from Lexmark MX722adhe.
 
+Package: system-config-samba-wx
+Version: 1.2.64
+Architecture: all
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 7292
+Depends: python | python-is-python2 | python2-minimal, python2, samba, python-libuser, python-glade2
+Provides: system-config-samba (= 1.2.63-0ubuntu6)
+Conflicts: system-config-samba (= 1.2.63-0ubuntu6)
+Replaces: system-config-samba (= 1.2.63-0ubuntu6)
+Priority: optional
+Section: admin
+Filename: pool/main/s/system-config-samba-wx/system-config-samba-wx_1.2.64_all.deb
+Size: 259544
+SHA256: ef018f93ba3ec77f7c66fd2acbf157714546d487030f1dab14fca13c8fae91c7
+SHA1: 16352750b855ed13c131c2f4edc07bdcc5430509
+MD5sum: 36f12ed9bc28243d0a066af2d4ca08a0
+Description: GUI for managing samba shares and users
+ system-config-samba is a graphical user interface for creating,
+ modifying, and deleting samba shares and users.
+
