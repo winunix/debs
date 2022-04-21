@@ -15,6 +15,23 @@ MD5sum: aa3535c18b992ed53f03a4681c506f80
 Description: Drivers for Lexmark MX722adhe Printer and Scan.
  A metapackage for installing printer and scanner drivers from Lexmark MX722adhe.
 
+Package: seduc-xftheme
+Version: 0.0.1
+Installed-Size: 341
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: xfce4-panel
+Homepage: https://seduc.ce.gov.br
+Priority: optional
+Section: utils
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.1_all.deb
+Size: 332924
+SHA256: aa80b36cc4731e11cc96985e545ea523e924fffeaf2121217a13103b0ab1fa84
+SHA1: fd2ec40184feba79134d08d57b462f9696617746
+MD5sum: 3bf6e33c35cce0b85a3bab5202530717
+Description: Wallpaper and Orb from SEDUC-CE for XFCE.
+ Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
+
 Package: system-config-samba-wx
 Version: 1.2.64
 Architecture: all
