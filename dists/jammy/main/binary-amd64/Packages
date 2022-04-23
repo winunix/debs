@@ -175,19 +175,19 @@ Description: user and group account administration library - Python 2.7 bindings
 Original-Maintainer: Ghe Rivero <ghe@debian.org>
 
 Package: seduc-xftheme
-Version: 0.0.1
-Installed-Size: 341
+Version: 0.0.2
+Installed-Size: 342
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
 Depends: xfce4-panel
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.1_all.deb
-Size: 332924
-SHA256: aa80b36cc4731e11cc96985e545ea523e924fffeaf2121217a13103b0ab1fa84
-SHA1: fd2ec40184feba79134d08d57b462f9696617746
-MD5sum: 3bf6e33c35cce0b85a3bab5202530717
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.2_all.deb
+Size: 333056
+SHA256: 45d2e471abbd71014b48112801bbb952129ecd53394365a302e173e66349252b
+SHA1: 749d20dae79ebcc2596f548d0fd11a65bd08af38
+MD5sum: 60e06dc475075d83abbdd40243a110f0
 Description: Wallpaper and Orb from SEDUC-CE for XFCE.
  Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
 
