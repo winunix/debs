@@ -52,3 +52,20 @@ Description: GUI for managing samba shares and users
  system-config-samba is a graphical user interface for creating,
  modifying, and deleting samba shares and users.
 
+Package: winunix-software-center
+Version: 0.0.11
+Installed-Size: 8
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: python2, zenity
+Homepage: https://winunix.github.io
+Priority: optional
+Section: utils
+Filename: pool/main/w/winunix-software-center/winunix-software-center_0.0.11_all.deb
+Size: 4420
+SHA256: f967e38d137d195387a924acee74a65ef3b948976fa53969695b59441e5b206c
+SHA1: 6055a2ac0f8c3c225026abb3e0f60de12bd1df30
+MD5sum: 7c0e5d23564a73d90d262b6f7beb31b3
+Description: PosInstall for Winunix.
+ A GUI script for install apps post installed system.
+
