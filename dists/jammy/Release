@@ -2,27 +2,27 @@ Origin: Winunix
 Label: Winunix
 Suite: stable
 Codename: jammy
-Date: Sat, 23 Apr 2022 19:54:13 UTC
+Date: Sun, 24 Apr 2022 19:12:40 UTC
 Architectures: i386 amd64
 Components: main
 Description: Debian x86-64 packages hosted on ailtonbsj github repository
 MD5Sum:
- d5942db63f3af84a4715144e4a199fa9 2693 main/binary-i386/Packages
- d754f45983ddf662967eab6542726918 1242 main/binary-i386/Packages.gz
+ 1e85a90b2110db614700e828f7093862 3482 main/binary-i386/Packages
+ c51917ce2ee017f40969160f47af68a2 1628 main/binary-i386/Packages.gz
  e28f630d5aa2711f0d3b4b4cd676d743 156 main/binary-i386/Release
  3aa83068f24194430bb6fcc8c66f88df 9786 main/binary-amd64/Packages
  676d6650441be3a3a91162aab30af49c 3572 main/binary-amd64/Packages.gz
  ee500f56c96b30ec48b006986560d986 157 main/binary-amd64/Release
 SHA1:
- 7384fc6d92b28fe5a8583b5ef1940fc71150938c 2693 main/binary-i386/Packages
- 14b95eb70bff2eba68c59b8b12d046a402536ef2 1242 main/binary-i386/Packages.gz
+ 8ffd0629f832538d38deeb8e785d190d944fb3f5 3482 main/binary-i386/Packages
+ 26d9fe5815beada361f0594cdae7c8fbfca7eabc 1628 main/binary-i386/Packages.gz
  0de48e20450bd03d1dc3920f21af7f1255e2211a 156 main/binary-i386/Release
  9728382e923f9411219996ff4f6b52d5ceda6769 9786 main/binary-amd64/Packages
  3275b61129fcfbf34195da42e00baa83f28288cb 3572 main/binary-amd64/Packages.gz
  925073ae146c606b6cd44a88832596d067c9857b 157 main/binary-amd64/Release
 SHA256:
- 7d6df9d06653a10beac0452d9fb15fa4dde4f6a526710757318e924fc2545977 2693 main/binary-i386/Packages
- 3221af3640e682e87275cd662e24b36123aa89ba166c8d52fbf50e6fb048eb2a 1242 main/binary-i386/Packages.gz
+ 000bf63c53f69015613f5a105e0eb61bd2ed21325d97972df3069e89c8668f6c 3482 main/binary-i386/Packages
+ d24e4bb503d2fc3d617ef9d3af7df32f4dbd30a76cd25afd6d31f20017463713 1628 main/binary-i386/Packages.gz
  4e172e51f58593b939be31d5a8a11c37970f0b6142ab8dd3ca6002a37df3c6ca 156 main/binary-i386/Release
  9eddafde6551de7a74757a693db62e25b9cbb78bbb307244aeaa917ff9f3884c 9786 main/binary-amd64/Packages
  129b6d3aeb8caeeb791ba324d37c0821f975bf98950054fbd10a563e9ed37481 3572 main/binary-amd64/Packages.gz
