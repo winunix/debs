@@ -31,6 +31,26 @@ MD5sum: aa3535c18b992ed53f03a4681c506f80
 Description: Drivers for Lexmark MX722adhe Printer and Scan.
  A metapackage for installing printer and scanner drivers from Lexmark MX722adhe.
 
+Package: linux-headers-5.13.0-051300
+Source: linux
+Version: 5.13.0-051300.202106272333
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 73803
+Depends: coreutils
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-5.13.0-051300_5.13.0-051300.202106272333_all.deb
+Size: 11726296
+SHA256: 033dbfa39a8c1cb22a2f57ef08fef4782773dbf9806369e42fcf8b421b1ccb4c
+SHA1: c3c1ea2df4a2242b494e244daceb5350624e8e5e
+MD5sum: 267e3f90e67a5ecd6604b710c5e95475
+Description: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-5.13.0-051300/debian.README.gz for details
+
 Package: seduc-xftheme
 Version: 0.0.2
 Installed-Size: 342

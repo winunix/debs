@@ -80,6 +80,105 @@ Description: pango library X backend
  This package contains the Core X backend.
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
+Package: linux-headers-5.13.0-051300
+Source: linux
+Version: 5.13.0-051300.202106272333
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 73803
+Depends: coreutils
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-5.13.0-051300_5.13.0-051300.202106272333_all.deb
+Size: 11726296
+SHA256: 033dbfa39a8c1cb22a2f57ef08fef4782773dbf9806369e42fcf8b421b1ccb4c
+SHA1: c3c1ea2df4a2242b494e244daceb5350624e8e5e
+MD5sum: 267e3f90e67a5ecd6604b710c5e95475
+Description: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-5.13.0-051300/debian.README.gz for details
+
+Package: linux-headers-5.13.0-051300-generic
+Source: linux
+Version: 5.13.0-051300.202106272333
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 24217
+Depends: linux-headers-5.13.0-051300, libc6 (>= 2.33), libelf1 (>= 0.142), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3)
+Provides: linux-headers, linux-headers-3.0
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-5.13.0-051300-generic_5.13.0-051300.202106272333_amd64.deb
+Size: 2525480
+SHA256: 41e76b4762dc2dbced29bd8481529ae612d016e33fe439d51df65b10b139ed94
+SHA1: b5facfd17a939d393f21995ddce9249367548fd5
+MD5sum: aefba299b543dde5965c2431db9b969e
+Description: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-051300/debian.README.gz for details.
+
+Package: linux-image-unsigned-5.13.0-051300-generic
+Source: linux
+Version: 5.13.0-051300.202106272333
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 10068
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-5.13.0-051300-generic
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc | linux-source-5.13.0, linux-tools, linux-headers-5.13.0-051300-generic, linux-modules-extra-5.13.0-051300-generic
+Conflicts: linux-image-5.13.0-051300-generic
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-image-unsigned-5.13.0-051300-generic_5.13.0-051300.202106272333_amd64.deb
+Size: 10130984
+SHA256: 3c3b3052d1093db9befa3b1cf3b4d5ff9061392b47365afe70e3d0f0da0b635c
+SHA1: ec63cf0169df2d01c869ec51ac9d7a3da06d5ca7
+MD5sum: 05d2a25f8fe1cea763cd050f0ca5a579
+Description: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-051300-generic
+Source: linux
+Version: 5.13.0-051300.202106272333
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 377889
+Depends: linux-image-5.13.0-051300-generic | linux-image-unsigned-5.13.0-051300-generic
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-modules-5.13.0-051300-generic_5.13.0-051300.202106272333_amd64.deb
+Size: 67525348
+SHA256: af2307a8b02715a0a054c4cc200d0f909f80cdea9fa723d0b591901c3d6ab36a
+SHA1: a0d81008b33eafc5b3b27dcc0e83af59db7bf970
+MD5sum: 7f4a885badca853b008a0e1eb99e07b1
+Description: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: python-cairo
 Source: pycairo
 Version: 1.16.2-2ubuntu2
