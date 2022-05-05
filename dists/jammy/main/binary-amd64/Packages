@@ -105,6 +105,42 @@ Description: Secure Sockets Layer toolkit - shared libraries
  It provides the libssl and libcrypto shared libraries.
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 
+Package: linux-firmware-ar3k
+Version: 20210818-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 344
+Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: non-free/kernel
+Filename: pool/main/l/linux-firmware-ar3k/linux-firmware-ar3k_20210818-1_all.deb
+Size: 188086
+SHA256: 076f28f2bc4211e3ad195c2b3f6dec5fde8651b8e6f5e0b0d46291914bc285a2
+SHA1: 9e979d4549aeedea3d2a66f8cac5138979ec01c2
+MD5sum: 4a6641d3eb4c4f4feef019cbb378fc6a
+Description: Binary firmware for Qualcomm Atheros wireless cards
+ This package contains the binary firmware for Bluetooth cards supported by the ar3k drivers.
+ .
+ Contents:
+  * Atheros AR3012 rev 01020001 patch (ar3k/AthrBT_0x01020001.dfu)
+  * Atheros AR3012 rev 01020200 patch (ar3k/AthrBT_0x01020200.dfu)
+  * Atheros AR3012 rev 01020201 patch, version 170 (ar3k/AthrBT_0x01020201.dfu)
+  * Atheros AR3012 rev 11020000 patch (ar3k/AthrBT_0x11020000.dfu)
+  * Atheros AR3012 rev 11020100 patch (ar3k/AthrBT_0x11020100.dfu)
+  * Atheros AR3012 rev 31010000 patch (ar3k/AthrBT_0x31010000.dfu)
+  * Atheros AR3012 rev 31010100 patch (ar3k/AthrBT_0x31010100.dfu)
+  * Atheros AR3012 rev 41020000 patch (ar3k/AthrBT_0x41020000.dfu)
+  * Atheros AR3012 rev 01020001 config (ar3k/ramps_0x01020001_26.dfu)
+  * Atheros AR3012 rev 01020200 26 MHz config (ar3k/ramps_0x01020200_26.dfu)
+  * Atheros AR3012 rev 01020200 40 MHz config (ar3k/ramps_0x01020200_40.dfu)
+  * Atheros AR3012 rev 01020201 26 MHz config (ar3k/ramps_0x01020201_26.dfu)
+  * Atheros AR3012 rev 01020201 40 MHz config (ar3k/ramps_0x01020201_40.dfu)
+  * Atheros AR3012 rev 11020000 config (ar3k/ramps_0x11020000_40.dfu)
+  * Atheros AR3012 rev 11020100 config (ar3k/ramps_0x11020100_40.dfu)
+  * Atheros AR3012 rev 31010000 config (ar3k/ramps_0x31010000_40.dfu)
+  * Atheros AR3012 rev 31010100 config (ar3k/ramps_0x31010100_40.dfu)
+  * Atheros AR3012 rev 41020000 config (ar3k/ramps_0x41020000_40.dfu)
+
 Package: linux-headers-5.13.0-051300
 Source: linux
 Version: 5.13.0-051300.202106272333
