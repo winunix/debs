@@ -14,6 +14,77 @@ MD5sum: 1af5a5d829971e409f1ca3581581fd16
 Description: Adobe Reader allows you to view navigate and print PDF files. This version adds advanced forms support (save), better integration with Adobe Acrobat workflows, customizable toolbars and better overall performance.
 Installed-Size: 132264
 
+Package: crede17-printers
+Version: 0.0.4
+Installed-Size: 3200
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: lexmark-mx722, epson-l3250, epson-l210
+Homepage: https://ailtonbsj.github.io
+Priority: optional
+Section: utils
+Filename: pool/main/c/crede17-printers/crede17-printers_0.0.4_all.deb
+Size: 1792
+SHA256: 549d0b8de61d1c039280d5675349377cbf087f3ae9c1bf38db2e3844ae4ee2c5
+SHA1: 2f12fbb9ff9ce20710b8ca03af9a1e8a98c54e87
+MD5sum: e5f2ed4c2773291afbead7829f6dcbba
+Description: impressoras da CREDE17.
+ Instala drivers e adiciona todas as impressoras da CREDE17.
+
+Package: epson-l210
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l210/epson-l210_0.0.1_all.deb
+Size: 900
+SHA256: 68f7911f1992be5d0376be14d49692a4043a343f12b66be6e3ca340c234cb8bd
+SHA1: ce4ee229fdedcafaef831b7e01158f940ebbb90f
+MD5sum: 3df1f3867fb37a6f438f98e580ec1d35
+Description: Drivers for Epson L210 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L210 Printer - Multifunction InkTank.
+
+Package: epson-l3250
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l3250/epson-l3250_0.0.1_all.deb
+Size: 912
+SHA256: 7a869a4e52e5b7ba2cc8f7c466812c43c1bf1307fb6815b69400185ed1e473db
+SHA1: 648b10b57743752ad24ad838bc83348ad1a86ab4
+MD5sum: cfa734aee54a4ea10cf3233e3dcef455
+Description: Drivers for Epson L3250 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
+
+Package: iscan-data
+Version: 1.39.2-1
+Architecture: all
+Maintainer: SEIKO EPSON CORPORATION <linux-printer@epson.jp>
+Installed-Size: 616
+Depends: udev (>= 0.105-4), xsltproc
+Conflicts: iscan (<< 2.30.0)
+Priority: extra
+Section: non-free/graphics
+Filename: pool/main/i/iscan-data/iscan-data_1.39.2-1_all.deb
+Size: 42090
+SHA256: 599dae9e020d197a5c71f9efc4c0087fdff05cce5ec6fcbe461239ce27f77756
+SHA1: db3449d7ffbf4afcd8cf839a1d7d0355e4a9d9a5
+MD5sum: c3486f9523cad1fa093e0cab80a5d834
+Description: Image Scan! for Linux data files
+ Provides the necessary support files for Image Scan! for Linux,
+ including device information and policy file generation logic.
+ .
+ Image Scan! for Linux will not function without this package.
+
 Package: lexmark-mx722
 Version: 0.0.1
 Installed-Size: 1

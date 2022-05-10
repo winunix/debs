@@ -1,3 +1,239 @@
+Package: crede17-printers
+Version: 0.0.4
+Installed-Size: 3200
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: lexmark-mx722, epson-l3250, epson-l210
+Homepage: https://ailtonbsj.github.io
+Priority: optional
+Section: utils
+Filename: pool/main/c/crede17-printers/crede17-printers_0.0.4_all.deb
+Size: 1792
+SHA256: 549d0b8de61d1c039280d5675349377cbf087f3ae9c1bf38db2e3844ae4ee2c5
+SHA1: 2f12fbb9ff9ce20710b8ca03af9a1e8a98c54e87
+MD5sum: e5f2ed4c2773291afbead7829f6dcbba
+Description: impressoras da CREDE17.
+ Instala drivers e adiciona todas as impressoras da CREDE17.
+
+Package: epson-inkjet-printer-201207w
+Version: 1.0.0-1lsb3.2
+Architecture: amd64
+Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
+Installed-Size: 2977
+Depends: lsb (>= 3.2)
+Priority: extra
+Section: alien
+Filename: pool/main/e/epson-inkjet-printer-201207w/epson-inkjet-printer-201207w_1.0.0-1lsb3.2_amd64.deb
+Size: 1871242
+SHA256: 846b3b5882260c5fc7c4c0c10adc3f7ac2a8f6f1b30231b11825709bb6b53945
+SHA1: 5c0306bf97da8da53c92fce7851db8e942e72b00
+MD5sum: a6296026fe7456985581b96594bd326d
+Description: EPSON L110/210/300/350/355/550/555 Series - Epson Inkjet Printer Driver
+ This software is a filter program used with Common UNIX Printing
+ System (CUPS) from the Linux. This can supply the high quality print
+ with Seiko Epson Color Ink Jet Printers.
+ .
+ This printer driver is supporting the following printers.
+ .
+ L110
+ L111
+ L210
+ L211
+ L300
+ L301
+ L303
+ L350
+ L351
+ L353
+ L355
+ L356
+ L550
+ L551
+ L555
+ .
+ For detail list of supported printer, please refer to below site:
+ http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: epson-inkjet-printer-escpr
+Version: 1.7.17-1lsb3.2
+Architecture: amd64
+Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
+Installed-Size: 5601
+Depends: lsb (>= 3.2)
+Priority: extra
+Section: alien
+Filename: pool/main/e/epson-inkjet-printer-escpr/epson-inkjet-printer-escpr_1.7.17-1lsb3.2_amd64.deb
+Size: 4957746
+SHA256: 405821f90f999f7a08ddbf343ffa19950f14b260dcd903617c69d0e9957d6e79
+SHA1: 25a57fc6b53deaee94c3b8bf692eb747e5b8ed70
+MD5sum: 2ff2bd8169a8432b99eb4e013c0833f4
+Description: Epson Inkjet Printer Driver (ESC/P-R) for Linux
+ This software is a filter program used with Common UNIX Printing
+ System (CUPS) from the Linux. This can supply the high quality print
+ with Seiko Epson Color Ink Jet Printers.
+ .
+ This product supports only EPSON ESC/P-R printers. This package can be
+ used for all EPSON ESC/P-R printers.
+ .
+ For detail list of supported printer, please refer to below site:
+ http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: epson-l210
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l210/epson-l210_0.0.1_all.deb
+Size: 900
+SHA256: 68f7911f1992be5d0376be14d49692a4043a343f12b66be6e3ca340c234cb8bd
+SHA1: ce4ee229fdedcafaef831b7e01158f940ebbb90f
+MD5sum: 3df1f3867fb37a6f438f98e580ec1d35
+Description: Drivers for Epson L210 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L210 Printer - Multifunction InkTank.
+
+Package: epson-l3250
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l3250/epson-l3250_0.0.1_all.deb
+Size: 912
+SHA256: 7a869a4e52e5b7ba2cc8f7c466812c43c1bf1307fb6815b69400185ed1e473db
+SHA1: 648b10b57743752ad24ad838bc83348ad1a86ab4
+MD5sum: cfa734aee54a4ea10cf3233e3dcef455
+Description: Drivers for Epson L3250 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
+
+Package: epson-printer-utility
+Version: 1.1.1-1lsb3.2
+Architecture: amd64
+Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
+Installed-Size: 3800
+Depends: lsb (>= 3.2)
+Priority: extra
+Section: alien
+Filename: pool/main/e/epson-printer-utility/epson-printer-utility_1.1.1-1lsb3.2_amd64.deb
+Size: 1284606
+SHA256: 417b637173c0b866a94eb5d9785aecbcd10fc99fd1d7149eb49f02f450e6b61f
+SHA1: 1bf7d102a9fd0c11d95f15ffae66e72fb2fc00ab
+MD5sum: 940a2066e6f72c72e21ce235e5ed3fb3
+Description: Epson Printer Utility for Linux
+ This is a Printer Utility program for Epson Printer Driver.
+ Using this software, you can check ink levels, view error and other status... on EPSON Printers.
+ For detail list of supported printer, please refer to below site:
+ http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+ .
+ (Converted from a rpm package by alien version 8.86.)
+
+Package: epsonscan2
+Maintainer: Kenichi Shimoura <linux-printer@epson.jp>
+Architecture: amd64
+Version: 6.6.2.4-1
+Priority: optional
+Section: utils
+Filename: pool/main/e/epsonscan2/epsonscan2_6.6.2.4-1_amd64.deb
+Size: 2779524
+SHA256: de6b5209dc381b2566596461349027b1ba25da221790d6fae6ec82a71826fa15
+SHA1: f91e467ca595990574e7bd0524770d01b9aaee0b
+MD5sum: b63fd22893f04358d4e6f6fc36122885
+Description: This is scanner driver.
+
+Package: epsonscan2-non-free-plugin
+Maintainer: Kenichi Shimoura <linux-printer@epson.jp>
+Architecture: amd64
+Version: 1.0.0.4-1
+Priority: optional
+Section: utils
+Filename: pool/main/e/epsonscan2-non-free-plugin/epsonscan2-non-free-plugin_1.0.0.4-1_amd64.deb
+Size: 16225664
+SHA256: 5152335de5a01e56947de420dac4baf58cf65ea5c5214b80ef2c8d6d4c13da42
+SHA1: a315fd5ebc0487c08bd90aafae8b9ddf717c19ff
+MD5sum: 86b36489aed4005e5bbcdf2c8dd3464a
+Description: This is scanner driver non free plugins.
+
+Package: iscan
+Version: 2.30.4-2
+Architecture: amd64
+Maintainer: SEIKO EPSON Corporation <linux-printer@epson.jp>
+Installed-Size: 1628
+Depends: iscan-data, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libltdl7 (>= 2.2.6b), libsane (>= 1.0.11-3), libstdc++6 (>= 4.4.0), libusb-1.0-0 (>= 2:1.0.6), libxml2 (>= 2.7.4)
+Recommends: gimp
+Conflicts: iscan-network-nt (<< 1.1), iscan-plugin-cx4400 (<< 2.1), iscan-plugin-gt-7200 (<< 2.1), iscan-plugin-gt-7300 (<< 2.1), iscan-plugin-gt-9400 (<< 2.1), iscan-plugin-gt-f500 (<< 2.1), iscan-plugin-gt-f520 (<< 2.1), iscan-plugin-gt-f600 (<< 2.1), iscan-plugin-gt-f670 (<< 2.1), iscan-plugin-gt-f700 (<< 2.1), iscan-plugin-gt-s600 (<< 2.1), iscan-plugin-gt-x750 (<< 2.1)
+Replaces: libsane-extras
+Priority: extra
+Section: non-free/graphics
+Filename: pool/main/i/iscan/iscan_2.30.4-2_amd64.deb
+Size: 424560
+SHA256: 1035d77974a277fb073ef5f259941d3069a72693076f67490c1cb8359c117a2e
+SHA1: fd3f1907356495d236b6cc7135454bdf5e0c4cb6
+MD5sum: 5d2bd50e35e1b5872c6f31acc6d36e26
+Description: simple, easy to use scanner utility for EPSON scanners
+ Image Scan! is a graphical scanner utility for people that do not need
+ all the bells and whistles provided by several of the other utilities
+ out there (xsane, QuiteInsane, Kooka).
+ .
+ At the moment it only supports SEIKO EPSON scanners and all-in-ones.
+ However, the scanner driver it provides can be used by any other SANE
+ standard compliant scanner utility.
+ .
+ Note that several scanners require a non-free plugin before they can
+ be used with this software.
+
+Package: iscan-data
+Version: 1.39.2-1
+Architecture: all
+Maintainer: SEIKO EPSON CORPORATION <linux-printer@epson.jp>
+Installed-Size: 616
+Depends: udev (>= 0.105-4), xsltproc
+Conflicts: iscan (<< 2.30.0)
+Priority: extra
+Section: non-free/graphics
+Filename: pool/main/i/iscan-data/iscan-data_1.39.2-1_all.deb
+Size: 42090
+SHA256: 599dae9e020d197a5c71f9efc4c0087fdff05cce5ec6fcbe461239ce27f77756
+SHA1: db3449d7ffbf4afcd8cf839a1d7d0355e4a9d9a5
+MD5sum: c3486f9523cad1fa093e0cab80a5d834
+Description: Image Scan! for Linux data files
+ Provides the necessary support files for Image Scan! for Linux,
+ including device information and policy file generation logic.
+ .
+ Image Scan! for Linux will not function without this package.
+
+Package: iscan-network-nt
+Version: 1.1.2-1
+Architecture: amd64
+Maintainer: SEIKO EPSON Corporation <linux-printer@epson.jp>
+Installed-Size: 128
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0), iscan (>= 2.29.3)
+Priority: extra
+Section: non-free/graphics
+Filename: pool/main/i/iscan-network-nt/iscan-network-nt_1.1.2-1_amd64.deb
+Size: 49302
+SHA256: 00e4e0f45a07fb650a5ab11070bac7be78048a5db486677b83d75d70ed061e14
+SHA1: e660429d6318aab9ae2d6d5926d8715cab237956
+MD5sum: 73cd75eb554ee15eab9eaabc244957e2
+Description: Image Scan! Network Plugin
+ This plugin converts between the network protocol of the supported
+ devices and the ESC/I protocol.  The latter protocol is supported
+ by the SANE 'epkowa' backend, part of Image Scan!, and some other
+ SANE backends.  However, only the 'epkowa' backend provides the
+ hooks needed to use this plugin.
+ .
+ All network capable Epson devices supported by Image Scan! are
+ expected to work with this plugin.
+
 Package: lexmark-aew-ppd-files
 Version: 1.0-06132018
 Architecture: amd64
