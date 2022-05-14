@@ -163,6 +163,23 @@ SHA1: a315fd5ebc0487c08bd90aafae8b9ddf717c19ff
 MD5sum: 86b36489aed4005e5bbcdf2c8dd3464a
 Description: This is scanner driver non free plugins.
 
+Package: fonts-isidora
+Version: 0.3
+Architecture: all
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Installed-Size: 1026
+Multi-Arch: foreign
+Homepage: https://www.behance.net/gallery/42228985/Isidora
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-isidora/fonts-isidora_0.3_all.deb
+Size: 286876
+SHA256: 597ad8f568d428e533400167060c8c1b45f19fbbc96738b413b8aea5f2e0df48
+SHA1: 1b8e73d5a3eb4a2eaa6cb56bd6f6bb21271f1be4
+MD5sum: 0f552c92251b32ce131752ee93808d10
+Description: Isidora fonts
+ Isidora is a modern geometric font based on the classic typefaces of the early 21st Century yet with a contemporary and functional touch.
+
 Package: iscan
 Version: 2.30.4-2
 Architecture: amd64
@@ -603,6 +620,23 @@ Description: user and group account administration library - Python 2.7 bindings
  .
  This package contains the Python 2.7 bindings for the library.
 Original-Maintainer: Ghe Rivero <ghe@debian.org>
+
+Package: rtl8723du-dkms
+Version: 5.2.15.2~jammy4
+Architecture: all
+Maintainer: Gökhan Gökkaya <wirelessanten@gmail.com>
+Installed-Size: 5867
+Depends: dkms (>= 2.1.0.0), linux-libc-dev, libc6-dev
+Homepage: http://www.realtek.com.tw/
+Priority: optional
+Section: kernel
+Filename: pool/main/r/rtl8723du-dkms/rtl8723du-dkms_5.2.15.2~jammy4_all.deb
+Size: 872556
+SHA256: d1b7277a9f4ed79edf452b8fbc47eb3b66469e2fc4e8fddc35db524bf6ac959d
+SHA1: 2a8dd1806b575a7ea2e5178756007eba37c044c2
+MD5sum: 2df9d972011ae2a58e08a6e3d151e0d5
+Description: rtl8723du driver in DKMS format.
+Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
 Package: seduc-xftheme
 Version: 0.0.2
