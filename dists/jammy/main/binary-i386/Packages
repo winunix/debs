@@ -175,6 +175,52 @@ Description: Header files related to Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-headers-5.13.0-051300/debian.README.gz for details
 
+Package: python-twodict
+Source: twodict
+Version: 1.2-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 24
+Homepage: https://github.com/MrS0m30n3/twodict
+Priority: optional
+Section: python
+Filename: pool/main/t/twodict/python-twodict_1.2-1_all.deb
+Size: 5344
+SHA256: f40e54e116410910d6164a96781abda4a83b9fb2ece2fa905ca460cfb5a52194
+SHA1: 90ec082c94c918ae7643dcd51b8fa41e6668f76b
+MD5sum: 2b5c8658ebc3a44f10925bcc682063a9
+Description: Simple two way ordered dictionary for Python 2
+ TwoWayOrderedDict is a custom dictionary in which you can get the key:value
+ relationship but you can also get the value:key relationship. It also
+ remembers the order in which the items were inserted and supports almost all
+ the features of the build-in dict.
+ .
+ This package installs the library for Python 2.
+
+Package: python-wxversion
+Source: wxpython3.0
+Version: 3.0.2.0+dfsg-8build1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: wxWidgets Maintainers <team+wx@tracker.debian.org>
+Installed-Size: 64
+Depends: python2:any (<< 2.8), python2:any (>= 2.7~)
+Homepage: https://www.wxpython.org/
+Priority: optional
+Section: python
+Filename: pool/main/w/wxpython3.0/python-wxversion_3.0.2.0+dfsg-8build1_all.deb
+Size: 12144
+SHA256: 1a84ee186f198a9c2ca3e5f185e4222e275aef2c7cd5edda07e76720b985a7b8
+SHA1: f250a1881561e1f42846cde8db377c7bc84dfff9
+MD5sum: 2bde268761e34a608c30bc766c39612e
+Description: API for selecting the wxPython version to use
+ wxWidgets (formerly known as wxWindows) is a class library for C++ providing
+ GUI components and other facilities on several popular platforms (and some
+ unpopular ones as well).
+ .
+ This package provides the wxPython version selector.
+
 Package: rtl8723du-dkms
 Version: 5.2.15.2~jammy4
 Architecture: all
@@ -262,4 +308,22 @@ SHA1: 6055a2ac0f8c3c225026abb3e0f60de12bd1df30
 MD5sum: 7c0e5d23564a73d90d262b6f7beb31b3
 Description: PosInstall for Winunix.
  A GUI script for install apps post installed system.
+
+Package: youtube-dlg
+Version: 0.4-1~webupd8~disco0
+Architecture: all
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Installed-Size: 344
+Depends: python-wxgtk3.0, python-twodict (>= 1.2)
+Recommends: libav-tools | ffmpeg
+Homepage: https://github.com/MrS0m30n3/youtube-dl-gui
+Priority: extra
+Section: gnome
+Filename: pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~disco0_all.deb
+Size: 88482
+SHA256: af5b69be5de54dc684d62add63d5bae34bd60821a10f43c97065bab6116f4b32
+SHA1: 0e1a52210335d251131d8e1324fda54e9840f20f
+MD5sum: 9886347e0a32f3979278330150306af9
+Description: youtube-dl gui
+ A cross platform front-end GUI of the popular youtube-dl written in wxPython.
 
