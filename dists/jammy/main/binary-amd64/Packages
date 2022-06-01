@@ -782,20 +782,21 @@ Description: PosInstall for Winunix.
  A GUI script for install apps post installed system.
 
 Package: youtube-dlg
-Version: 0.4-1~webupd8~disco0
+Version: 0.4-2
 Architecture: all
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Installed-Size: 344
-Depends: python-wxgtk3.0, python-twodict (>= 1.2)
-Recommends: libav-tools | ffmpeg
+Depends: python-is-python3, python-wxgtk3.0, python-twodict (>= 1.2), ffmpeg
+Recommends: libav-tools
 Homepage: https://github.com/MrS0m30n3/youtube-dl-gui
 Priority: extra
 Section: gnome
-Filename: pool/main/y/youtube-dlg/youtube-dlg_0.4-1~webupd8~disco0_all.deb
-Size: 88482
-SHA256: af5b69be5de54dc684d62add63d5bae34bd60821a10f43c97065bab6116f4b32
-SHA1: 0e1a52210335d251131d8e1324fda54e9840f20f
-MD5sum: 9886347e0a32f3979278330150306af9
+Filename: pool/main/y/youtube-dlg/youtube-dlg_0.4-2_all.deb
+Size: 88510
+SHA256: c6fc2ba147d6be2a231f0684c599e5295b79c7205272704f131acebd88bc6b7e
+SHA1: 7977f4ccc4c8abc964e2f5106d9075a24bbdb2c2
+MD5sum: b3d00b0dcd9025010edf4908a86c097d
 Description: youtube-dl gui
  A cross platform front-end GUI of the popular youtube-dl written in wxPython.
+ Fixed by ailtonbsj for ubuntu 22.04 LTS.
 
