@@ -765,7 +765,7 @@ Description: Tool to create bootable USB drives
  Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.
 
 Package: winunix-software-center
-Version: 0.0.11
+Version: 0.0.12
 Installed-Size: 8
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
@@ -773,11 +773,11 @@ Depends: python2, zenity
 Homepage: https://winunix.github.io
 Priority: optional
 Section: utils
-Filename: pool/main/w/winunix-software-center/winunix-software-center_0.0.11_all.deb
-Size: 4420
-SHA256: f967e38d137d195387a924acee74a65ef3b948976fa53969695b59441e5b206c
-SHA1: 6055a2ac0f8c3c225026abb3e0f60de12bd1df30
-MD5sum: 7c0e5d23564a73d90d262b6f7beb31b3
+Filename: pool/main/w/winunix-software-center/winunix-software-center_0.0.12_all.deb
+Size: 4166
+SHA256: f4196601e91ca55d5dbecfa3ad8513f7ea656435f1a19b28361ee4e7af5536bd
+SHA1: 85bb8f336a51647b20da0ce710be9e15fa435c0c
+MD5sum: 90c95d15c3c103cff2ae9f1c63bd13ae
 Description: PosInstall for Winunix.
  A GUI script for install apps post installed system.
 
