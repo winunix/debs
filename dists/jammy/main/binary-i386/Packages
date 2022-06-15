@@ -175,6 +175,23 @@ Description: Header files related to Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-headers-5.13.0-051300/debian.README.gz for details
 
+Package: oracle-jdk-17-lts
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: jdk-17
+Homepage: https://openvpn.net
+Priority: optional
+Section: utils
+Filename: pool/main/o/oracle-jdk-17-lts/oracle-jdk-17-lts_0.0.1_all.deb
+Size: 750
+SHA256: 748100271adf661f67dbb7b0749c97a361fcffbadbe7a087da1de42382ceb534
+SHA1: 561fcb2a51ecfbf3dfa3653650b2721f58655821
+MD5sum: 9955e45ec32705a2e61c8d7ad22d9493
+Description: Oracle Java Development Kit 17 LTS.
+ Official package of java and jdk from oracle and JAVA_HOME variables.
+
 Package: python-twodict
 Source: twodict
 Version: 1.2-1

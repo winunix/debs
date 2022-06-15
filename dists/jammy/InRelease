@@ -5,42 +5,42 @@ Origin: Winunix
 Label: Winunix
 Suite: stable
 Codename: jammy
-Date: Wed, 15 Jun 2022 00:27:26 UTC
+Date: Wed, 15 Jun 2022 12:44:11 UTC
 Architectures: i386 amd64
 Components: main
 Description: Debian x86-64 packages hosted on ailtonbsj github repository
 MD5Sum:
- c43b5ea4ab8333cebe6cf68276c602db 13445 main/binary-i386/Packages
- 56f739a0c8ad08ddb8c6d0b03f8c0c92 5063 main/binary-i386/Packages.gz
+ 8eb3de226436c8c40e36dca084177717 14017 main/binary-i386/Packages
+ 0e62641ff1191b59c69d427fe4d90b73 5267 main/binary-i386/Packages.gz
  e28f630d5aa2711f0d3b4b4cd676d743 156 main/binary-i386/Release
- de9c3c091b0d492bcfb3c5966593955b 33590 main/binary-amd64/Packages
- 659a9cd69521da41495fc676e123214d 10847 main/binary-amd64/Packages.gz
+ 4523efc1178c5b6281b1e6b9b1fd1a48 34162 main/binary-amd64/Packages
+ 21567052c387e2f3fb5aa6e94ab90943 11057 main/binary-amd64/Packages.gz
  ee500f56c96b30ec48b006986560d986 157 main/binary-amd64/Release
 SHA1:
- a4de8851bbd3c26c57d538853997513ba346955a 13445 main/binary-i386/Packages
- 45acab3cf4b315ded737bb15afdfe3dc1c3464b6 5063 main/binary-i386/Packages.gz
+ aee459cede1f52c3fc8a000eb142051dd70f3c02 14017 main/binary-i386/Packages
+ d7fd57b23a8b149e0a759ab0d9b45ac5681e22e0 5267 main/binary-i386/Packages.gz
  0de48e20450bd03d1dc3920f21af7f1255e2211a 156 main/binary-i386/Release
- c8e6dca4eb294657bc43817a1bb5b2e8f28e1659 33590 main/binary-amd64/Packages
- 46fe7a5114eae5b77fc11e9914e88f4e01fd74e2 10847 main/binary-amd64/Packages.gz
+ 860c7ec3346bedcbd022c018d92a28c744d65423 34162 main/binary-amd64/Packages
+ 64dd4e1572168dea85dc426eaec6f93ffca2ff9d 11057 main/binary-amd64/Packages.gz
  925073ae146c606b6cd44a88832596d067c9857b 157 main/binary-amd64/Release
 SHA256:
- 5b588ceb428b10600ef21d2a02b654de26769f9292a3dbf410ef59d21c087d40 13445 main/binary-i386/Packages
- 86ddea17930251d668e69743f93cb3f321771a2e08033e4afd3c52b55ef6f6eb 5063 main/binary-i386/Packages.gz
+ ad2ad56e53b39361b067103c0e7382bb73241e4b3880704b575d08702555f70a 14017 main/binary-i386/Packages
+ e3164b8e2e17e0c1dca18b97b412676ad94cc4df3488b9fa6653bae74a7b1100 5267 main/binary-i386/Packages.gz
  4e172e51f58593b939be31d5a8a11c37970f0b6142ab8dd3ca6002a37df3c6ca 156 main/binary-i386/Release
- 3f7ee850ea34d991dcf6aa71676632648c0ff03c26d852b66b473e44a357f968 33590 main/binary-amd64/Packages
- 7fb51971c807f85ca11e3a4ad4cf1c6c800f3b3714886ee5c68a47baf7eb3f9d 10847 main/binary-amd64/Packages.gz
+ 321cca5a9be187dfe82036b49af5e103e0c822dd14da00ad9f418bdce4568941 34162 main/binary-amd64/Packages
+ f1a18bc2a5362a5cb877c23fbd0ca1cbb4b68a12417ce004188a8e5ca6df880f 11057 main/binary-amd64/Packages.gz
  3df85ca92d20c66546eea8d0358177f5d3c18e2cbefdbd2fd9c1137128ed497a 157 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEswHEp36DT/YbB+UiT4sUB1Nb2A0FAmKpJ3MACgkQT4sUB1Nb
-2A1FIwwA2GyUJvCtPYZIx9AEy9A7ffcBLmXdYUwOmqZLEKGQi4sXfU76828Z2t7f
-yH83JS4dRP0j1ftQ/gtaYdXLJKxt1zqVH1U8bSEKfqU4arVY4DVSuG4al/rjIOZ+
-znIgBRiWigRM+d0w4S4x9vFowHgj44mY2k8jF058hfaHROJtK5iiiV7tO7BT9uaw
-oWLZ6s+3uSC7jSDil+7S7Gj7bHdIWRYc/cJxCZ3smowrpVsj5NPp7J8GUX12+Hj/
-FTet/fTBEJoeH3LsS0qGBSV93Z9mGo8LzQEFSpXVFg33Oj/kcG36/e0w5rnCfZjv
-kqHMeniupUvTPKsC839O6DqzDFL8gIYoP6FX/qljr+C+Jc2AnShDm170lUTfcCWg
-/yuA2gcc1g3ohlJWLKZ1bRVfttEj1z7WcPReRRp37+ZXlwH9YhZjdNxh4/Tyg/QF
-iA/FHsTXBdSzWTusiGlvtDkb/oSQmHP3c8Gux6HeYLj5youVtuEazMtmhTzDqWpX
-ewrpUNbr
-=uBbg
+iQGzBAEBCgAdFiEEswHEp36DT/YbB+UiT4sUB1Nb2A0FAmKp1BwACgkQT4sUB1Nb
+2A0NxQwA2u/M7aEG0ciZ3mTlz64riHEWI3l8UjIv0dtd8hc7Hc3d7IkopyBjT/+z
+x6LW6SyQfX1u6F6IBLRxyvvTLskLM1JZSr0g6XoLDX4BBfSuNbyxii8uW9JcBKds
+H1K0dH7fgL9vf5SGZsJ6Lr/Lw+Lig88oUx4xeCjkW+CdT9NxOrDkIdxVr/3E/ql7
+Rl3y6JxVoqJLsQK+Szjt78+hfmWKU/QVzk0c99EvJAhzfc0NezIq1jqtxHo3QSwy
+xbjc4Brjc7VlWvTi7pmgF+JyzZ3u3u0cFwHVgN47RZiWjLGKjYZwwuquHCLfMlKD
+Vp4G7tfbZEoeyNzPdyJboGpEgeSCNr2XS0DSnxwWrc4MFfjcooy4pOyohtWwpoAz
+3VhxP7fUJTGc5yF0qwWhROxedUAbiEjD5ohSXlR9yJ6UaiSXbWiTMZeGdF0+HkKB
+85XYYPGhIGvJAuic1ZTpDgVkh+zEPzGGXENwOm6y61nv6nEAsFd0ANch0z5rCtEF
+1HHvkJJ1
+=nfqu
 -----END PGP SIGNATURE-----
