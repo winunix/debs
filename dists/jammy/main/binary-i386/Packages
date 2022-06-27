@@ -65,6 +65,23 @@ MD5sum: cfa734aee54a4ea10cf3233e3dcef455
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
 
+Package: fix-tiling-xfce4
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Homepage: https://winunix.github.io
+Priority: optional
+Section: utils
+Filename: pool/main/f/fix-tiling-xfce4/fix-tiling-xfce4_0.0.1_all.deb
+Size: 1952
+SHA256: 1e8f1e8a61da219103c4b003b5346b6c5b179bb344f59f3feee34f329bd59e04
+SHA1: 318a5982a603dbc064d7a70f05ff8cc82f8cb81a
+MD5sum: 718d001a15fc16d43c9243e49cfcae91
+Description: Fix tilling of windows in XFCE4.
+ Fix the problem of shortcuts snapping windows on Xubuntu 22.04.
+ 
+
 Package: fonts-isidora
 Version: 0.3
 Architecture: all
@@ -256,19 +273,19 @@ Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
 Package: seduc-xftheme
-Version: 0.0.4
+Version: 0.0.5
 Installed-Size: 342
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
-Depends: xfce4-panel
+Depends: xfce4-panel, fix-tiling-xfce4
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.4_all.deb
-Size: 332514
-SHA256: ddfabc6253c04213ff651e359e16cd30aaccab57f7794a079a50e7d0eb2968d4
-SHA1: 6faa0e9f490fc0d105edd8bf7ab47bd3a2e69a10
-MD5sum: 130a3386d583f4fab6f77e5756f74922
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.5_all.deb
+Size: 332486
+SHA256: cc05ab41e29cec2aee7ccad8c5edcebaade69132022dfba45586aba808d7bb80
+SHA1: 8093cdf4e7ee3c0ca8a38482a25b8f0f9d4ed778
+MD5sum: 7bb1fc61610962dbdf3162fdf1371a24
 Description: Wallpaper and Orb from SEDUC-CE for XFCE.
  Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
 
