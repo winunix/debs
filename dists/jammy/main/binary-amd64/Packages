@@ -316,6 +316,27 @@ MD5sum: 5f7493273e21bb6e28d13868f1c73d22
 Description:
  Lexmark Network and USB Scan Drivers PackageThis package contains the Lexmark Network and USB Scan Drivers program.This is a copyrighted package, please refer to the copyrightnotice for details about using this product.
 
+Package: libmpdec2
+Source: mpdecimal
+Version: 2.4.2-3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 243
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: http://www.bytereef.org/mpdecimal/index.html
+Priority: optional
+Section: libs
+Filename: pool/main/m/mpdecimal/libmpdec2_2.4.2-3_amd64.deb
+Size: 81132
+SHA256: 4e624c616de0fa1dea3571291b05b3d6fe5f75d8667b278f9503b1eca36ffbcf
+SHA1: 9fdbb019a3acae4e7975467e5c62522c99360f27
+MD5sum: f476458937adb11f22614e2ec6a2b79b
+Description: library for decimal floating point arithmetic (runtime library)
+ mpdecimal is a package for correctly-rounded arbitrary precision decimal
+ floating point arithmetic.
+
 Package: libpangox-1.0-0
 Source: pangox-compat
 Version: 0.0.2-5ubuntu1
@@ -350,6 +371,111 @@ Description: pango library X backend
  This package contains the Core X backend.
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
+Package: libproj15
+Source: proj
+Version: 6.3.1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Installed-Size: 3256
+Depends: proj-data (>= 6.3.1-1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libsqlite3-0 (>= 3.7.5), libstdc++6 (>= 9)
+Suggests: proj-bin
+Multi-Arch: same
+Homepage: https://proj.org/
+Priority: optional
+Section: libs
+Filename: pool/main/p/proj/libproj15_6.3.1-1_amd64.deb
+Size: 925016
+SHA256: c9e7ffbd8a0ac522b674e3f964c3edc13c1395e411e3ce26d49c55fd604f884b
+SHA1: f19ec90f1863aeda9b9aff32dd63c7441a383331
+MD5sum: 6ab5a48dedc515e65cc84e7d52c81393
+Description: Cartographic projection library
+ Proj and invproj perform respective forward and inverse transformation
+ of cartographic data to or from Cartesian data with a wide range of
+ selectable projection functions (over 100 projections).
+ .
+ Geod and invgeod perform geodesic (Great Circle) computations for
+ determining latitude, longitude and back azimuth of a terminus point given
+ a initial point latitude, longitude, azimuth and distance (direct) or the
+ forward and back azimuths and distance between an initial and terminus
+ point latitudes and longitudes (inverse).
+ .
+ This package provides the PROJ shared library used by tools and third
+ parties programs.
+
+Package: libpython3.8
+Source: python3.8
+Version: 3.8.2-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5371
+Depends: libpython3.8-stdlib (= 3.8.2-1ubuntu1), libc6 (>= 2.29), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/p/python3.8/libpython3.8_3.8.2-1ubuntu1_amd64.deb
+Size: 1619972
+SHA256: d47a54492e5ec7199d150c74d67b6fcec03bfbe2449bae340a107568df3ab861
+SHA1: 4ac808f297755987e8c6b96ef21508a05db8011a
+MD5sum: 41765093f3f1ada00859ebed693c8b12
+Description: Shared Python runtime library (version 3.8)
+ Python is a high-level, interactive, object-oriented language. Its 3.8 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.8-minimal
+Source: python3.8
+Version: 3.8.2-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4721
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Recommends: libpython3.8-stdlib
+Conflicts: binfmt-support (<< 1.1.2), libpython3.8-stdlib (<< 3.8.0~b1-1~)
+Breaks: libpython3.8-stdlib (<< 3.8.0~b1-1~)
+Multi-Arch: same
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.8/libpython3.8-minimal_3.8.2-1ubuntu1_amd64.deb
+Size: 704808
+SHA256: 70686b82fdbc4dd1514c30bdff299ab6bc4f6e4a3a0d3f50c324d64720d25378
+SHA1: 9f155bf97b3095603fc4ce55a4c6c48d7b335b9c
+MD5sum: e88197d81627654ac0f06e5d5ea75a0e
+Description: Minimal subset of the Python language (version 3.8)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python3.8-minimal.
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: libpython3.8-stdlib
+Source: python3.8
+Version: 3.8.2-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 7805
+Depends: libpython3.8-minimal (= 3.8.2-1ubuntu1), mime-support, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)
+Breaks: libpython3.8-testsuite (<< 3.8.0-4)
+Replaces: libpython3.8-testsuite (<< 3.8.0-4)
+Multi-Arch: same
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.8/libpython3.8-stdlib_3.8.2-1ubuntu1_amd64.deb
+Size: 1667860
+SHA256: 6e455e429ee3dec44cf1440ea91c9cde4c03cf5e4a06e54b0d5b5d8b95b7de03
+SHA1: e05f501d0958f0846c76c5436ba828db01f17898
+MD5sum: ac70c2dfe00fde17b242918f697fc59c
+Description: Interactive high-level object-oriented language (standard library, version 3.8)
+ Python is a high-level, interactive, object-oriented language. Its 3.8 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 3.8's standard library. It is normally not
+ used on its own, but as a dependency of python3.8.
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
 Package: libssl1.1
 Source: openssl
 Version: 1.1.1f-1ubuntu2
@@ -374,6 +500,31 @@ Description: Secure Sockets Layer toolkit - shared libraries
  .
  It provides the libssl and libcrypto shared libraries.
 Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libzip5
+Source: libzip
+Version: 1.5.1-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 131
+Depends: libbz2-1.0, libc6 (>= 2.14), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://www.nih.at/libzip/
+Priority: optional
+Section: libs
+Filename: pool/main/libz/libzip/libzip5_1.5.1-0ubuntu1_amd64.deb
+Size: 46672
+SHA256: cfe2a62399352e04289f0608e2e6e105a714005e2466690a854d07e2efb6f905
+SHA1: 16d0d9ba865f33a55db71b2a2fddbbcdce8ed87f
+MD5sum: 2d613737652ca6b90684f065a2151882
+Description: library for reading, creating, and modifying zip archives (runtime)
+ libzip is a C library for reading, creating, and modifying zip archives. Files
+ can be added from data buffers, files, or compressed data copied directly from
+ other zip archives. Changes made without closing the archive can be reverted.
+ .
+ This package contains the files necessary for running applications that
+ use the libzip library.
+Original-Maintainer: Stefan Schörghofer <amd1212@4md.gr>
 
 Package: linux-firmware-ar3k
 Version: 20210818-1
