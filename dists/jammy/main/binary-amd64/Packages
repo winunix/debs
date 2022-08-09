@@ -1,5 +1,5 @@
 Package: crede17-printers
-Version: 0.0.5
+Version: 0.0.6
 Installed-Size: 3200
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
@@ -7,11 +7,11 @@ Depends: lexmark-mx722, epson-l3250, epson-l210
 Homepage: https://ailtonbsj.github.io
 Priority: optional
 Section: utils
-Filename: pool/main/c/crede17-printers/crede17-printers_0.0.5_all.deb
-Size: 1618
-SHA256: 3a55a55425858eec43d338a4b9a4297023a2018afdd8c3f07aa0044ff7252801
-SHA1: 4b30be3f7aa21fa2bc44bcb67492e73af4b3767e
-MD5sum: 81c4a01de21f45756ec2767e7a4a82de
+Filename: pool/main/c/crede17-printers/crede17-printers_0.0.6_all.deb
+Size: 1606
+SHA256: bb93ddf41c6ca77e5d4d21457a1009ecb4514c73388320b473f5b8bc59a71788
+SHA1: fe3a0afd746f2f979c66f42addbd7ec993596ffc
+MD5sum: 98cdf48be468659908b31f73439ce921
 Description: impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
