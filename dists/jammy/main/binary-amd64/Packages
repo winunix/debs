@@ -188,6 +188,23 @@ MD5sum: cfa734aee54a4ea10cf3233e3dcef455
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
 
+Package: epson-l355
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l355/epson-l355_0.0.1_all.deb
+Size: 708
+SHA256: 51c37e28fc0d4b0c8fb1b26183c8a31c930f92e7b5def1b6fbffe6e5b2f8c857
+SHA1: d43a070bac192e77a3fe3b1c4a805f92cf4178e3
+MD5sum: d38a51959ed2d686879c8429c0af3dc9
+Description: Drivers for Epson L355 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L355 Printer - Multifunction InkTank.
+
 Package: epson-l375
 Version: 0.0.1
 Installed-Size: 1
