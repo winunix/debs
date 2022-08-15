@@ -570,6 +570,54 @@ MD5sum: 5f7493273e21bb6e28d13868f1c73d22
 Description:
  Lexmark Network and USB Scan Drivers PackageThis package contains the Lexmark Network and USB Scan Drivers program.This is a copyrighted package, please refer to the copyrightnotice for details about using this product.
 
+Package: libboost-filesystem1.71.0
+Source: boost1.71
+Version: 1.71.0-6ubuntu6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2074
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://boost.org/libs/filesystem/
+Priority: optional
+Section: libs
+Filename: pool/main/b/boost1.71/libboost-filesystem1.71.0_1.71.0-6ubuntu6_amd64.deb
+Size: 242068
+SHA256: 6793184cc2b8df0da401fdbe78fbf57ac598438177a6af163f99f9f1c14f9eb8
+SHA1: 8d71364563841fe526b1c995bee7de45293be068
+MD5sum: 276449308f6bae0e71ad2720eff02a26
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Filesystem Library provides portable facilities to query and
+ manipulate paths, files, and directories.  The goal is to
+ facilitate portable script-like operations from within C++ programs.
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+
+Package: libboost-program-options1.71.0
+Source: boost1.71
+Version: 1.71.0-6ubuntu6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2526
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.boost.org/libs/program_options/
+Priority: optional
+Section: libs
+Filename: pool/main/b/boost1.71/libboost-program-options1.71.0_1.71.0-6ubuntu6_amd64.deb
+Size: 341824
+SHA256: 389095c7167251ee73667031a4c0f45083a31347cc95faddbdf5b7d22ac4c774
+SHA1: 8ed4d12f51e297fbd3a6fb01aa2a484d20d6c6ab
+MD5sum: 749afba98bff0e7f5e1f3d6f0d8bbbe6
+Description: program options library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Library to let program developers obtain program options, that is
+ (name, value) pairs from the user, via conventional methods such as
+ command line and config file.
+Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+
 Package: libmpdec2
 Source: mpdecimal
 Version: 2.4.2-3
