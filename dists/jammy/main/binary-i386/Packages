@@ -48,6 +48,40 @@ MD5sum: 3df1f3867fb37a6f438f98e580ec1d35
 Description: Drivers for Epson L210 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L210 Printer - Multifunction InkTank.
 
+Package: epson-l3110
+Version: 0.0.2
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l3110/epson-l3110_0.0.2_all.deb
+Size: 712
+SHA256: 612450fe5e3f2d26e95feaddf5039d879508e0758a6e679e6f42cb294bdd5c8f
+SHA1: 32d8251094eb9d81f3671a636bc93fdb6160cd10
+MD5sum: bc36912801582ead44f4a09bff38703c
+Description: Drivers for Epson L3110 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L3110 Printer - Wi-Fi Multifunction InkTank.
+
+Package: epson-l3150
+Version: 0.0.2
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l3150/epson-l3150_0.0.2_all.deb
+Size: 712
+SHA256: d4d6640977af5f285552bc060294eb0b52e905d3d38e6864911068234499245d
+SHA1: f1900b2d3c722d505828999ee49a1b59c2fcf376
+MD5sum: bcee2059a488031475009214f5497490
+Description: Drivers for Epson L3150 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L3150 Printer - Wi-Fi Multifunction InkTank.
+
 Package: epson-l3250
 Version: 0.0.1
 Installed-Size: 1
@@ -64,6 +98,74 @@ SHA1: 648b10b57743752ad24ad838bc83348ad1a86ab4
 MD5sum: cfa734aee54a4ea10cf3233e3dcef455
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
+
+Package: epson-l375
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l375/epson-l375_0.0.1_all.deb
+Size: 734
+SHA256: 0ce96887e2ed770c97c08e9842f7a1748497bad1447f4890689e40f4aeb36eb2
+SHA1: d73c72f3d082bf8b8a3aea9e4904299c08f63815
+MD5sum: cd67061a29edff24bb8eb0239b26420e
+Description: Drivers for Epson L375 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L375 Printer - Wi-Fi Multifunction InkTank.
+
+Package: epson-l380
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-201601w, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l380/epson-l380_0.0.1_all.deb
+Size: 710
+SHA256: faf878d32ab552f0fd81a1577bfab58f6c47e60c7fbf14ea21cff011d53055fa
+SHA1: ea134a32e99a92df36628c3c87ae03524b2f04d4
+MD5sum: b79cbe2c60b7b3524c463978d92df1b4
+Description: Drivers for Epson L380 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L380 Printer - Multifunction InkTank.
+
+Package: epson-l396
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-printer-utility, epson-inkjet-printer-escpr, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l396/epson-l396_0.0.1_all.deb
+Size: 724
+SHA256: e3b9a1c98e67f23a55b1974529c7c39438d4a260f3c120f33b895aeaf2ef1e78
+SHA1: 0d796897689b26aa5165f6df7392bfc783943124
+MD5sum: 43bbe7b746bdca1586cc5ce7ff2f725d
+Description: Drivers for Epson L396 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L396 Printer - Multifunction InkTank.
+
+Package: epson-l555
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, epson-inkjet-printer-201207w, epson-pc-fax, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l555/epson-l555_0.0.1_all.deb
+Size: 720
+SHA256: 0f83ffb0bc7fa1b7ace6b9d1416b90c442c219c030065b5121f8a4fa6b8e8bc4
+SHA1: 4d6dbadf1a1cfad25453936b1a14c6c7317bc7cf
+MD5sum: 75df7838993a702761e7432b68911d09
+Description: Drivers for Epson L555 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L555 Printer - Wi-Fi Multifunction InkTank.
 
 Package: fix-tiling-xfce4
 Version: 0.0.1
@@ -342,6 +444,23 @@ SHA1: 0da48bb21e5d3d858e1555e28e6cf4f05a77d169
 MD5sum: 10ecaf663a734711a8bc74d1d893c33d
 Description: PosInstall for Winunix.
  A GUI script for install apps post installed system.
+
+Package: youtube-dl-full
+Version: 0.0.3
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: youtube-dlg
+Homepage: https://github.com/oleksis/youtube-dl-gui
+Priority: optional
+Section: utils
+Filename: pool/main/y/youtube-dl-full/youtube-dl-full_0.0.3_all.deb
+Size: 604
+SHA256: ea59355b5e1f7c3d7289d4f6e7a3610f03568acc31d926146caab0fac1b41eb7
+SHA1: eb2f5cc6cb5012075921415eeea7d97cd8386b5a
+MD5sum: bef88d3a07a601e389bf2f7a36797041
+Description: Youtube-dlp and a frontend.
+ This package install youtube-dlp and a frontend youtube-dlg fork.
 
 Package: youtube-dlg
 Version: 0.4-2
