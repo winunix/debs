@@ -184,6 +184,23 @@ MD5sum: 75df7838993a702761e7432b68911d09
 Description: Drivers for Epson L555 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L555 Printer - Wi-Fi Multifunction InkTank.
 
+Package: firefox
+Version: 2
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: firefox (>= 104.0+build2-0ubuntu0.22.04.1~mt1)
+Homepage: https://launchpad.net/~mozillateam/+archive/ubuntu/ppa
+Priority: optional
+Section: utils
+Filename: pool/main/f/firefox/firefox_2_all.deb
+Size: 630
+SHA256: 26ff6b1631130e4eb9e239b717e15907988a405f9ce786fe2f448687561f8260
+SHA1: c257926d18c56bf515841eb859349a87ff1132d4
+MD5sum: 7ff621535dfe7e73923cc6d020d8847c
+Description: Firefox without Snap.
+ Install firefox with Ubuntu Snap.
+
 Package: fix-tiling-xfce4
 Version: 0.0.1
 Installed-Size: 1
@@ -392,19 +409,19 @@ Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
 Package: seduc-xftheme
-Version: 0.0.8
+Version: 0.0.9
 Installed-Size: 342
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
-Depends: xfce4-panel, fix-tiling-xfce4, firefox (>= 104.0+build2-0ubuntu0.22.04.1~mt1)
+Depends: xfce4-panel, fix-tiling-xfce4
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.8_all.deb
-Size: 17007940
-SHA256: 2d8656d9573ec41878a88790c2c1f91de386aa133093caa4b59a582df4bfb211
-SHA1: 4c92bc3ec83a79acbb2cccc413ef176e27c0f351
-MD5sum: aa2afb0369e42b2e5a601cae45cb7c77
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.9_all.deb
+Size: 17007900
+SHA256: 2a8fe990e13c2182895e31c0c10ea9777cff7d2d784d47885e0281059985a864
+SHA1: 2afd829e0305fcb2d5806920d6b5de2a43528969
+MD5sum: 7d0fbaa1ced7b94708b800715bfb9e1f
 Description: Wallpaper and Orb from SEDUC-CE for XFCE.
  Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
 
