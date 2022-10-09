@@ -272,6 +272,33 @@ MD5sum: aa3535c18b992ed53f03a4681c506f80
 Description: Drivers for Lexmark MX722adhe Printer and Scan.
  A metapackage for installing printer and scanner drivers from Lexmark MX722adhe.
 
+Package: libgtksourceview2.0-common
+Source: gtksourceview2
+Version: 2.10.5-3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3268
+Multi-Arch: foreign
+Homepage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gtksourceview2/libgtksourceview2.0-common_2.10.5-3_all.deb
+Size: 425398
+SHA256: c9b437639c714603df9e42893de905b328e6782c90c5c0ff3015e11baae75116
+SHA1: 01f5b67be0516deaeb8eaf95fa84c481a01bae7d
+MD5sum: aaf58990868dbaa4d7a0261ae820f757
+Description: common files for the GTK+ syntax highlighting widget
+ GtkSourceView is a text widget that extends the standard GTK+ 2.x text widget
+ GtkTextView. It improves GtkTextView by implementing syntax highlighting and
+ other features typical of a source editor.
+ .
+ This package contains the language specifications files for Ada, C, C++, C#,
+ CSS, ".desktop", ".diff" (patch), Fortran 95, GtkRC, Haskell, HTML, IDL,
+ ".ini", Java, JavaScript, LaTeX, Lua, MSIL, Nemerle, Pascal, Perl, PHP, ".po"
+ (gettext), Python, R, Ruby, sh, SQL, Tcl, Texinfo, VB.NET, Verilog, VHDL and
+ XML.
+
 Package: linux-firmware-ar3k
 Version: 20210818-1
 Architecture: all

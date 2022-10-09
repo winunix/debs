@@ -1,3 +1,20 @@
+Package: bsnes-nightly
+Version: 115.0.1
+Installed-Size: 16434
+Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
+Architecture: amd64
+Depends: libgtksourceview2.0-0, libao4, libgtk2.0-0, libpulse0, libcairo2, libsdl2-2.0-0, libxv1, libopenal1, libudev1
+Homepage: https://byuu.org/bsnes
+Priority: optional
+Section: misc
+Filename: pool/main/b/bsnes-nightly/bsnes-nightly_115.0.1_amd64.deb
+Size: 2790520
+SHA256: dd13997c7fe12b27ce8ab143880a0f38142e0c6bfcf9a05ae642edd5492ae8c9
+SHA1: 07243e8e4eba209bb2cfdeaf3a3d2ea4f487154a
+MD5sum: 8d1f1fa9731983b14feae08c874a13c0
+Description: Super Nintendo (SNES) emulator focused on performance.
+ Bsnes is a Super Nintendo / Super Famicom emulator that began development on October 14th, 2004. It focuses on performance, features, and ease of use.
+
 Package: crede17-printers
 Version: 0.0.6
 Installed-Size: 3200
@@ -651,6 +668,58 @@ Description: program options library for C++
  (name, value) pairs from the user, via conventional methods such as
  command line and config file.
 Original-Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+
+Package: libgtksourceview2.0-0
+Source: gtksourceview2
+Version: 2.10.5-3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 452
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.31), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4), libgtksourceview2.0-common (>= 2.10), libgtksourceview2.0-common (<< 2.11)
+Multi-Arch: same
+Homepage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gtksourceview2/libgtksourceview2.0-0_2.10.5-3_amd64.deb
+Size: 147866
+SHA256: 5612e3ff38bb070e2ff461aa4fbf953bf81d1d9df4375e149d5a7799e6e60111
+SHA1: 9dd706c2fc43a49cd0391664de46c2c033bc7d94
+MD5sum: eba5cfd929de15e9b87e8b55475f8a5b
+Description: shared libraries for the GTK+ syntax highlighting widget
+ GtkSourceView is a text widget that extends the standard GTK+ 2.x text widget
+ GtkTextView. It improves GtkTextView by implementing syntax highlighting and
+ other features typical of a source editor.
+ .
+ This package contains the shared libraries required by applications to use
+ this widget.
+
+Package: libgtksourceview2.0-common
+Source: gtksourceview2
+Version: 2.10.5-3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3268
+Multi-Arch: foreign
+Homepage: http://projects.gnome.org/gtksourceview/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gtksourceview2/libgtksourceview2.0-common_2.10.5-3_all.deb
+Size: 425398
+SHA256: c9b437639c714603df9e42893de905b328e6782c90c5c0ff3015e11baae75116
+SHA1: 01f5b67be0516deaeb8eaf95fa84c481a01bae7d
+MD5sum: aaf58990868dbaa4d7a0261ae820f757
+Description: common files for the GTK+ syntax highlighting widget
+ GtkSourceView is a text widget that extends the standard GTK+ 2.x text widget
+ GtkTextView. It improves GtkTextView by implementing syntax highlighting and
+ other features typical of a source editor.
+ .
+ This package contains the language specifications files for Ada, C, C++, C#,
+ CSS, ".desktop", ".diff" (patch), Fortran 95, GtkRC, Haskell, HTML, IDL,
+ ".ini", Java, JavaScript, LaTeX, Lua, MSIL, Nemerle, Pascal, Perl, PHP, ".po"
+ (gettext), Python, R, Ruby, sh, SQL, Tcl, Texinfo, VB.NET, Verilog, VHDL and
+ XML.
 
 Package: libmpdec2
 Source: mpdecimal
