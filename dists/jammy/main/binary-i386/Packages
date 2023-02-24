@@ -541,7 +541,7 @@ Description: Youtube-dlp and a frontend.
  This package install youtube-dlp and a frontend youtube-dlg fork.
 
 Package: youtube-dlg
-Version: 0.4-2
+Version: 0.4-3
 Architecture: all
 Maintainer: Alin Andrei <webupd8@gmail.com>
 Installed-Size: 344
@@ -550,11 +550,11 @@ Recommends: libav-tools
 Homepage: https://github.com/MrS0m30n3/youtube-dl-gui
 Priority: extra
 Section: gnome
-Filename: pool/main/y/youtube-dlg/youtube-dlg_0.4-2_all.deb
-Size: 88510
-SHA256: c6fc2ba147d6be2a231f0684c599e5295b79c7205272704f131acebd88bc6b7e
-SHA1: 7977f4ccc4c8abc964e2f5106d9075a24bbdb2c2
-MD5sum: b3d00b0dcd9025010edf4908a86c097d
+Filename: pool/main/y/youtube-dlg/youtube-dlg_0.4-3_all.deb
+Size: 88586
+SHA256: c6ec9b572423edf5e229c67a03735c9f027b3c301bdc5ed3c20cebde64d12070
+SHA1: 316ddb2cce724a5d264f1055141df687df805499
+MD5sum: 25878ba4554af2e8d20961b06bceeba4
 Description: youtube-dl gui
  A cross platform front-end GUI of the popular youtube-dl written in wxPython.
  Fixed by ailtonbsj for ubuntu 22.04 LTS.
