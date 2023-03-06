@@ -1301,7 +1301,7 @@ Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
 Package: seduc-xftheme
-Version: 0.0.9
+Version: 0.0.10
 Installed-Size: 342
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
@@ -1309,11 +1309,11 @@ Depends: xfce4-panel, fix-tiling-xfce4
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.9_all.deb
-Size: 17007900
-SHA256: 2a8fe990e13c2182895e31c0c10ea9777cff7d2d784d47885e0281059985a864
-SHA1: 2afd829e0305fcb2d5806920d6b5de2a43528969
-MD5sum: 7d0fbaa1ced7b94708b800715bfb9e1f
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.10_all.deb
+Size: 17007880
+SHA256: 7a512c0f185f0c84dca68ed42e54def817dd8341ca0a33fea9a2d45c7f6df0f7
+SHA1: b408c2e18795a3fdee7f440ca3ff0994fbf2dd4f
+MD5sum: 9d4e6716e1c87aeb532f3a52b25b71ac
 Description: Wallpaper and Orb from SEDUC-CE for XFCE.
  Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
 
