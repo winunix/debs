@@ -138,155 +138,155 @@ Description: Epson Inkjet Printer Driver (ESC/P-R) for Linux
  (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-l210
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l210/epson-l210_0.0.1_all.deb
-Size: 900
-SHA256: 68f7911f1992be5d0376be14d49692a4043a343f12b66be6e3ca340c234cb8bd
-SHA1: ce4ee229fdedcafaef831b7e01158f940ebbb90f
-MD5sum: 3df1f3867fb37a6f438f98e580ec1d35
+Filename: pool/main/e/epson-l210/epson-l210_0.0.2_all.deb
+Size: 710
+SHA256: 956e129b3765eff42360a21e820b32c37079383221345164b26448444b0efed1
+SHA1: 36eece6a234357e98e22df80519f3c118b80e14d
+MD5sum: 7ab37027b3cbfd302c0dfe954c6ac50e
 Description: Drivers for Epson L210 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L210 Printer - Multifunction InkTank.
 
 Package: epson-l3110
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3110/epson-l3110_0.0.2_all.deb
-Size: 712
-SHA256: 612450fe5e3f2d26e95feaddf5039d879508e0758a6e679e6f42cb294bdd5c8f
-SHA1: 32d8251094eb9d81f3671a636bc93fdb6160cd10
-MD5sum: bc36912801582ead44f4a09bff38703c
+Filename: pool/main/e/epson-l3110/epson-l3110_0.0.3_all.deb
+Size: 716
+SHA256: 8d8066a4b839f45b22b10b005d79dbe7ec154318134b221468a3e516e56c526b
+SHA1: e4b3df1295f5fb2a7c0154973045e615a8a45351
+MD5sum: 57d69f58482c7363727bb214b8bd5984
 Description: Drivers for Epson L3110 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3110 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l3150
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3150/epson-l3150_0.0.2_all.deb
-Size: 712
-SHA256: d4d6640977af5f285552bc060294eb0b52e905d3d38e6864911068234499245d
-SHA1: f1900b2d3c722d505828999ee49a1b59c2fcf376
-MD5sum: bcee2059a488031475009214f5497490
+Filename: pool/main/e/epson-l3150/epson-l3150_0.0.3_all.deb
+Size: 716
+SHA256: c277bd114c5afb90dfbd5b00465f7b69b3d7033b8aa0a4873929058401404bff
+SHA1: bfe68efb8538b60a90ced9f476d7734b4cf29429
+MD5sum: 83c2c98f679a1d5988d1ae830aad9306
 Description: Drivers for Epson L3150 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3150 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l3250
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3250/epson-l3250_0.0.1_all.deb
-Size: 912
-SHA256: 7a869a4e52e5b7ba2cc8f7c466812c43c1bf1307fb6815b69400185ed1e473db
-SHA1: 648b10b57743752ad24ad838bc83348ad1a86ab4
-MD5sum: cfa734aee54a4ea10cf3233e3dcef455
+Filename: pool/main/e/epson-l3250/epson-l3250_0.0.2_all.deb
+Size: 716
+SHA256: 74981d541963c83e839a4b610f5224f600d1729d4dbaa579c0d1530ecc19ccbe
+SHA1: ccf02bb348edd4931b3970e972cbbe9475acad64
+MD5sum: 0ac34924cba8689a7a5dc8cef1a9bde5
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l355
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l355/epson-l355_0.0.1_all.deb
-Size: 708
-SHA256: 51c37e28fc0d4b0c8fb1b26183c8a31c930f92e7b5def1b6fbffe6e5b2f8c857
-SHA1: d43a070bac192e77a3fe3b1c4a805f92cf4178e3
-MD5sum: d38a51959ed2d686879c8429c0af3dc9
+Filename: pool/main/e/epson-l355/epson-l355_0.0.2_all.deb
+Size: 712
+SHA256: fd7fd9bba6f5ed3821e63c98e07e137632ccdb76ba77445bb0f56940adf292ce
+SHA1: 3781cc0d99ca41910c640e73d76f3424dec8c38f
+MD5sum: ba89624234197a55275de7d1517362f5
 Description: Drivers for Epson L355 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L355 Printer - Multifunction InkTank.
 
 Package: epson-l375
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l375/epson-l375_0.0.1_all.deb
+Filename: pool/main/e/epson-l375/epson-l375_0.0.2_all.deb
 Size: 734
-SHA256: 0ce96887e2ed770c97c08e9842f7a1748497bad1447f4890689e40f4aeb36eb2
-SHA1: d73c72f3d082bf8b8a3aea9e4904299c08f63815
-MD5sum: cd67061a29edff24bb8eb0239b26420e
+SHA256: 6c450df869ef4376fd24339e394cb8924d7c0da4c1ab621c58d2df5061b4a5cb
+SHA1: 8a173e3e15d4c28c1324283e7e28b2ae46d85118
+MD5sum: e1b2bd2b9ffd1fb8b69de91385492edd
 Description: Drivers for Epson L375 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L375 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l380
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201601w, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
+Depends: lsb, epson-inkjet-printer-201601w, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l380/epson-l380_0.0.1_all.deb
-Size: 710
-SHA256: faf878d32ab552f0fd81a1577bfab58f6c47e60c7fbf14ea21cff011d53055fa
-SHA1: ea134a32e99a92df36628c3c87ae03524b2f04d4
-MD5sum: b79cbe2c60b7b3524c463978d92df1b4
+Filename: pool/main/e/epson-l380/epson-l380_0.0.2_all.deb
+Size: 714
+SHA256: 8134e22c924faeb8bfd9e1f16ce967e04620f5609b3ce1acb754f61960172ad9
+SHA1: f9f14fefabeefedc251ad8563aaa50f2c4d9ab95
+MD5sum: 054094229104631cfd28880231822cd9
 Description: Drivers for Epson L380 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L380 Printer - Multifunction InkTank.
 
 Package: epson-l396
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-printer-utility, epson-inkjet-printer-escpr, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Depends: lsb, epson-printer-utility-wx, epson-inkjet-printer-escpr, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l396/epson-l396_0.0.1_all.deb
-Size: 724
-SHA256: e3b9a1c98e67f23a55b1974529c7c39438d4a260f3c120f33b895aeaf2ef1e78
-SHA1: 0d796897689b26aa5165f6df7392bfc783943124
-MD5sum: 43bbe7b746bdca1586cc5ce7ff2f725d
+Filename: pool/main/e/epson-l396/epson-l396_0.0.2_all.deb
+Size: 726
+SHA256: 1a464bb0a616f17901641ae4fab96d5790efb063fe33bd230929fe4ff0424bd2
+SHA1: 93c524bda54c33173ca418cb227cc7192c2d112e
+MD5sum: 46ddcaf027b8475918858c577a20f6f7
 Description: Drivers for Epson L396 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L396 Printer - Multifunction InkTank.
 
 Package: epson-l555
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-pc-fax, epson-printer-utility, iscan, iscan-data, iscan-network-nt
+Depends: lsb, epson-inkjet-printer-201207w, epson-pc-fax, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l555/epson-l555_0.0.1_all.deb
-Size: 720
-SHA256: 0f83ffb0bc7fa1b7ace6b9d1416b90c442c219c030065b5121f8a4fa6b8e8bc4
-SHA1: 4d6dbadf1a1cfad25453936b1a14c6c7317bc7cf
-MD5sum: 75df7838993a702761e7432b68911d09
+Filename: pool/main/e/epson-l555/epson-l555_0.0.2_all.deb
+Size: 724
+SHA256: b0d2756a60b29332d84cbf8a9130df4cfc16445f559f27a6af4555a607d43fba
+SHA1: 42f94bf130d655b26848155df141de6d0821b8d1
+MD5sum: 8e89495c5b94a5f937a60d66fdbe0c61
 Description: Drivers for Epson L555 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L555 Printer - Wi-Fi Multifunction InkTank.
 
@@ -336,6 +336,23 @@ Description: Epson Printer Utility for Linux
  http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
  .
  (Converted from a rpm package by alien version 8.86.)
+
+Package: epson-printer-utility-wx
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: epson-printer-utility, libqtcore4, libqtgui4
+Homepage: https://github.com/winunix
+Priority: extra
+Section: utils
+Filename: pool/main/e/epson-printer-utility-wx/epson-printer-utility-wx_0.0.1_all.deb
+Size: 898
+SHA256: 6e4c8bccc55a4ee0685105d1591f3aa21f044c5e42c5d11d53a5b61166063d01
+SHA1: 358ba3ad951737d411e2113f0caf8904feffb592
+MD5sum: b5481053bf96a35f8fba4b42314e0270
+Description: Launcher of Epson Printer Utility for Linux.
+ This is a Printer Utility program for Epson Printer Driver with a launcher.
 
 Package: epsonscan2
 Maintainer: Kenichi Shimoura <linux-printer@epson.jp>
@@ -881,6 +898,234 @@ Description: Interactive high-level object-oriented language (standard library, 
  used on its own, but as a dependency of python3.8.
 Original-Maintainer: Matthias Klose <doko@debian.org>
 
+Package: libqt4-declarative
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 4625
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt4-network (= 5:4.8.7+dfsg-7ubuntu4rock7), libqt4-script (= 5:4.8.7+dfsg-7ubuntu4rock7), libqt4-sql (= 5:4.8.7+dfsg-7ubuntu4rock7), libqt4-xmlpatterns (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtgui4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Suggests: libqt4-declarative-folderlistmodel, libqt4-declarative-gestures, libqt4-declarative-particles, libqt4-declarative-shaders, qt4-qmlviewer
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-declarative_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 1218556
+SHA256: 6e2933fd8c1e597ea7849f343b062711d67b6ccb05c78df7e634745c299782ee
+SHA1: 6adaff16d1c4932d5d61aa7e6197407ab6a2eff3
+MD5sum: 15975629580aa3f7d722c4dfbca636f1
+Description: Qt 4 Declarative module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Declarative module provides a declarative framework for building highly
+ dynamic, custom user interfaces.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqt4-network
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 2240
+Depends: libc6 (>= 2.15), libgcc-s1 (>= 3.0), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtdbus4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-network_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 646788
+SHA256: cf90d0b41ec688f6b8c87096490e7eec004808383af190ef02a820122c2bd504
+SHA1: c076ab719611241a4775a30d064a5703f3a763bf
+MD5sum: 153485ad6fc47156b66afffadb23a1ff
+Description: Qt 4 network module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtNetwork module offers classes that allow you to write TCP/IP clients and
+ servers. It provides classes to make network programming easier and portable.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqt4-script
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 3155
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.0), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtdbus4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-script_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 933836
+SHA256: 0a9bfb0cdcbf58330ef8e999958e8e845993f6018ff9557f5c979b1b4ad4547b
+SHA1: fbec729482510d2049e56f8e2f3086b837fbf024
+MD5sum: 90f45d0a60a56ea5a0c2f905940e9df1
+Description: Qt 4 script module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtScript module provides classes for making Qt applications scriptable.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqt4-sql
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 439
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Recommends: libqt4-sql-odbc | libqt4-sql-psql | libqt4-sql-sqlite
+Suggests: libqt4-dev
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-sql_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 171068
+SHA256: 2b1ea5028cba8ee872428561fa0f97c0e674de4bfb61d4fc5301038f38f654ed
+SHA1: 183ad5511dd37decb086fc3064cf65e72df93da4
+MD5sum: eb9e3aed62d3265119b8a38f804437bf
+Description: Qt 4 SQL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSql module helps you provide seamless database integration to your Qt
+ applications.
+ .
+ If you wish to use the SQL module for development, you should install the
+ libqt4-dev package.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqt4-xml
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 476
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-xml_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 172568
+SHA256: acbf9e06a5416d1f67e764c152881293c8b4c764ccdf14ecde4a56ebc3153d2c
+SHA1: e48a11cf068667f6bc0205795e4e89ef755f5db4
+MD5sum: dd48e809e2f990905fb4d6415f5eff0f
+Description: Qt 4 XML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtXml module provides a stream reader and writer for XML documents,
+ and C++ implementations of SAX and DOM.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqt4-xmlpatterns
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 5148
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt4-network (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqt4-xmlpatterns_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 1235544
+SHA256: a2896e5ad719316c7eff5306888c5db18123f80e2a7dd76a9f841adba5868db2
+SHA1: e36b3d84e963a03f64b00fde2eda7205f882c8a5
+MD5sum: 441295dea0ccdc6f746ebaa6312538df
+Description: Qt 4 XML patterns module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ QtXmlPatterns is a XQuery and XPath engine for XML and custom data models.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqtcore4
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 5223
+Depends: qtcore4-l10n, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.22.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Suggests: libicu55, libthai0
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqtcore4_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 1659776
+SHA256: a2c78885fdd4634b5aec56f5e4f9361a3f2836901139b7d265eb71c648c737e0
+SHA1: bf52dac1f3ecb086d6afabc357fd2aef8a9b9d27
+MD5sum: d2c5f071dee02d99cf615116a033eece
+Description: Qt 4 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqtdbus4
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 741
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libqt4-xml (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libstdc++6 (>= 4.1.1)
+Breaks: libqt4-dbus (<< 4:4.8.2+dfsg-8)
+Replaces: libqt4-dbus (<< 4:4.8.2+dfsg-8)
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqtdbus4_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 263896
+SHA256: 51f202b7e66cd3e438e4fdbcf00958fac71cebaf008815c0ce46781ba3cf6732
+SHA1: 6931615e066aec5a92e4d51e72c93b7511a78362
+MD5sum: e86e8899779fa6886ba9c960bde9deee
+Description: Qt 4 D-Bus module library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDBus module is a Unix-only library that you can use to make Inter-Process
+ Communication using the D-Bus protocol.
+ .
+ Applications using the QtDBus module can provide services to other, remote
+ applications by exporting objects, as well as use services exported by those
+ applications by placing calls and accessing properties.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libqtgui4
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: amd64
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 13301
+Depends: fontconfig, libaudio2, libc6 (>= 2.29), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libjpeg8 (>= 8c), libmng2 (>= 2.0.2), libpng16-16 (>= 1.6.2-1), libqt4-declarative (= 5:4.8.7+dfsg-7ubuntu4rock7), libqtcore4 (= 5:4.8.7+dfsg-7ubuntu4rock7), libsm6, libstdc++6 (>= 4.1.1), libtiff5 (>= 4.0.3), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrender1, zlib1g (>= 1:1.1.4)
+Recommends: libcups2, qt-at-spi
+Suggests: qt4-qtconfig
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/libqtgui4_4.8.7+dfsg-7ubuntu4rock7_amd64.deb
+Size: 4298524
+SHA256: bfb976bf38c19681c973a634e740f2fe829eb5d9be7359cf6c1e67fd9492b41e
+SHA1: 19efaa4701031c6b26905c998b030d14f0846f6c
+MD5sum: cd4823952ac52609244b771e1c09eb8c
+Description: Qt 4 GUI module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtGui module extends QtCore with GUI functionality.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
 Package: libssl1.1
 Source: openssl
 Version: 1.1.1f-1ubuntu2
@@ -1282,6 +1527,30 @@ Description: API for selecting the wxPython version to use
  unpopular ones as well).
  .
  This package provides the wxPython version selector.
+
+Package: qtcore4-l10n
+Source: qt4-x11
+Version: 5:4.8.7+dfsg-7ubuntu4rock7
+Architecture: all
+Maintainer: Rock Core Developers <rock-core@dfki.de>
+Installed-Size: 4817
+Breaks: libqtcore4 (<< 4:4.8.5+dfsg-1~)
+Replaces: libqtcore4 (<< 4:4.8.5+dfsg-1~)
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Priority: optional
+Section: libs
+Filename: pool/main/q/qt4-x11/qtcore4-l10n_4.8.7+dfsg-7ubuntu4rock7_all.deb
+Size: 680672
+SHA256: a8aff8ba50fad882c4997b46f8bb522ce8dda1a5d0458e3d5ce8d9a8c48eea22
+SHA1: f18c3b61ffff7ebc8f4b1d282508311509c7d493
+MD5sum: c91fd2bd047b8f4817ce8e34c930d2b3
+Description: Qt 4 core module translations
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the translations of the QtCore module.
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 
 Package: rtl8723du-dkms
 Version: 5.2.15.2~jammy4
