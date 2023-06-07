@@ -19,3 +19,4 @@ Faça o update do catálogo:
 sudo apt update
 ```
 
+Dúvidas? [Veja esse tutorial no Youtube!](https://youtu.be/fXcuUzftY18)
