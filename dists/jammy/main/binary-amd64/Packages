@@ -1640,6 +1640,23 @@ MD5sum: ee3810dca2414abbd6e221a6e4357fde
 Description: Tool to create bootable USB drives
  Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.
 
+Package: winunix-randr
+Version: 0.0.2
+Installed-Size: 6
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: nodejs, python3-gi
+Homepage: https://github.com/ailtonbsj/winunix-randr
+Priority: optional
+Section: utils
+Filename: pool/main/w/winunix-randr/winunix-randr_0.0.2_all.deb
+Size: 2508
+SHA256: 84749aa3d851f08b0269d357e701db846ed09ed72b470149ad40914bde554958
+SHA1: a4f0957ccac56a44ccd0fd98732891a1eb9c588d
+MD5sum: 599215b8fa0f4b8bcd43109cdb9d5aa7
+Description: A tool for manipulating screens with projectors using xrandr.
+ You can run the application winunix-randr-gtk with hot key Super + P to choose which mode of screen you want.
+
 Package: winunix-software-center
 Version: 0.0.13
 Installed-Size: 8
