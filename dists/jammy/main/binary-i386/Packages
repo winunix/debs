@@ -235,6 +235,24 @@ Description: Fix tilling of windows in XFCE4.
  Fix the problem of shortcuts snapping windows on Xubuntu 22.04.
  
 
+Package: fonts-ceara
+Version: 0.1
+Architecture: all
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Installed-Size: 4156
+Depends: fonts-isidora
+Multi-Arch: foreign
+Homepage: https://fonts.google.com
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-ceara/fonts-ceara_0.1_all.deb
+Size: 939422
+SHA256: f75268a38d2a5c1023abde7c87693f69a99ecb20b3d5b83bad5f956f1398e385
+SHA1: 25de6b48f21c111f22dff10059fca63158045cb1
+MD5sum: db6ba2cf1f8383648dd68532f6fca9b4
+Description: Kanit and Maitree fonts
+ Kanit and Maitree font family designed by Cadson Demak.
+
 Package: fonts-isidora
 Version: 0.3
 Architecture: all
@@ -477,19 +495,19 @@ Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
 Package: seduc-xftheme
-Version: 0.0.10
+Version: 0.0.11
 Installed-Size: 342
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
-Depends: xfce4-panel, fix-tiling-xfce4
+Depends: xfce4-panel, fix-tiling-xfce4, fonts-ceara
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.10_all.deb
-Size: 17007880
-SHA256: 7a512c0f185f0c84dca68ed42e54def817dd8341ca0a33fea9a2d45c7f6df0f7
-SHA1: b408c2e18795a3fdee7f440ca3ff0994fbf2dd4f
-MD5sum: 9d4e6716e1c87aeb532f3a52b25b71ac
+Filename: pool/main/s/seduc-xftheme/seduc-xftheme_0.0.11_all.deb
+Size: 16583018
+SHA256: af6a5bd2ee22d29dca441b7f4a45d1eb173d030308a0c27f4a7c667c593c5b56
+SHA1: a53bbab1e8e507ef2230653f636a3579117ae8f3
+MD5sum: 9adc7e7c718da75701034023fe2b0b5c
 Description: Wallpaper and Orb from SEDUC-CE for XFCE.
  Aplica plano de fundo e icone no menu Iniciar com temas da SEDUC-CE padrão 2021.
 
