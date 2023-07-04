@@ -254,19 +254,19 @@ Description: Kanit and Maitree fonts
  Kanit and Maitree font family designed by Cadson Demak.
 
 Package: fonts-isidora
-Version: 0.3
+Version: 0.4
 Architecture: all
 Maintainer: crasheddie <crash.eddie123@gmail.com>
-Installed-Size: 1026
+Installed-Size: 3488
 Multi-Arch: foreign
 Homepage: https://www.behance.net/gallery/42228985/Isidora
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-isidora/fonts-isidora_0.3_all.deb
-Size: 286876
-SHA256: 597ad8f568d428e533400167060c8c1b45f19fbbc96738b413b8aea5f2e0df48
-SHA1: 1b8e73d5a3eb4a2eaa6cb56bd6f6bb21271f1be4
-MD5sum: 0f552c92251b32ce131752ee93808d10
+Filename: pool/main/f/fonts-isidora/fonts-isidora_0.4_all.deb
+Size: 882768
+SHA256: 151d34ec2550a721b09bfbea3b201da703f7c32ca79a056869bfac6d575a41f7
+SHA1: d6b120752bfa4866320b47197c7b1b3f4c90c82a
+MD5sum: d8765d4963e69021c4b75d9f1df41c31
 Description: Isidora fonts
  Isidora is a modern geometric font based on the classic typefaces of the early 21st Century yet with a contemporary and functional touch.
 
