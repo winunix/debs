@@ -15,19 +15,19 @@ Description: Adobe Reader allows you to view navigate and print PDF files. This 
 Installed-Size: 132264
 
 Package: crede17-printers
-Version: 0.0.6
-Installed-Size: 3200
+Version: 0.0.7
+Installed-Size: 2
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
 Depends: lexmark-mx722, epson-l3250, epson-l210
 Homepage: https://ailtonbsj.github.io
 Priority: optional
 Section: utils
-Filename: pool/main/c/crede17-printers/crede17-printers_0.0.6_all.deb
-Size: 1606
-SHA256: bb93ddf41c6ca77e5d4d21457a1009ecb4514c73388320b473f5b8bc59a71788
-SHA1: fe3a0afd746f2f979c66f42addbd7ec993596ffc
-MD5sum: 98cdf48be468659908b31f73439ce921
+Filename: pool/main/c/crede17-printers/crede17-printers_0.0.7_all.deb
+Size: 1496
+SHA256: d78dc4a4f85577d8368eafd66f5cb1d9682784c582deb30773def0867664fe12
+SHA1: a3608660e28c7dbdf2cef55ca4eca0b8397074d8
+MD5sum: 1a5679fc15d5a23bd1a85de569b6cc04
 Description: impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
