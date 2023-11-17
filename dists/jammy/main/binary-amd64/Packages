@@ -1346,6 +1346,23 @@ MD5sum: 9955e45ec32705a2e61c8d7ad22d9493
 Description: Oracle Java Development Kit 17 LTS.
  Official package of java and jdk from oracle and JAVA_HOME variables.
 
+Package: portugol-studio
+Version: 2.7.5
+Installed-Size: 189952
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: amd64
+Depends: wget, unzip
+Homepage: https://univali-lite.github.io/Portugol-Studio/
+Priority: optional
+Section: science
+Filename: pool/main/p/portugol-studio/portugol-studio_2.7.5_amd64.deb
+Size: 992
+SHA256: 1a6f27fdf74ed7b72e2999349235e648164010dff585f3ebc5b20b33ad1e0da5
+SHA1: 2166875f787a087622d5a93e229a818ba6e57e22
+MD5sum: b8093931b56309491bfa49733d313392
+Description: Uma ferramenta para aprender programação
+ O Portugol Studio é um ambiente para aprender a programar, voltado para os iniciantes em programação que falam o idioma português. Possui uma sintaxe fácil, diversos exemplos e materiais de apoio à aprendizagem. Também possibilita a criação de jogos e outras aplicações.
+
 Package: python-cairo
 Source: pycairo
 Version: 1.16.2-2ubuntu2
