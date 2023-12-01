@@ -608,6 +608,23 @@ Description: Image Scan! Network Plugin
  All network capable Epson devices supported by Image Scan! are
  expected to work with this plugin.
 
+Package: kiosk-mode-xfce4
+Version: 0.0.1
+Installed-Size: 2
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: xfce4
+Homepage: https://github.com/winunix/kiosk-mode-xfce4
+Priority: optional
+Section: utils
+Filename: pool/main/k/kiosk-mode-xfce4/kiosk-mode-xfce4_0.0.1_all.deb
+Size: 1088
+SHA256: bd55e53e28cca23b8694a844525d43a27bd01eef4117c16d21248a461f134e39
+SHA1: 8bac4d338b4ce9a64df5586dbb9c675772638f64
+MD5sum: b66aa293d4bb823d7aad0fb5691f8ead
+Description: A tool for easy enable xfce4 kiosk mode.
+ Avoid modification on wallpapers and panel (taskbar) on XFCE4 environment.
+
 Package: lexmark-aew-ppd-files
 Version: 1.0-06132018
 Architecture: amd64
