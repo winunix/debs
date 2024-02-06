@@ -15,6 +15,40 @@ MD5sum: 8d1f1fa9731983b14feae08c874a13c0
 Description: Super Nintendo (SNES) emulator focused on performance.
  Bsnes is a Super Nintendo / Super Famicom emulator that began development on October 14th, 2004. It focuses on performance, features, and ease of use.
 
+Package: canon-pixma-g3110
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, cnijfilter2, scangearmp2
+Homepage: https://www.canon.com.br/para-voce/impressoras-e-multifuncionais/serie-mega-tank/megatank-g3110
+Priority: optional
+Section: utils
+Filename: pool/main/c/canon-pixma-g3110/canon-pixma-g3110_0.0.1_all.deb
+Size: 698
+SHA256: cc2d85ca864a5bd4c94ed7df80fe55d1faecb783fc8f5c264db6022271408973
+SHA1: 486ad6973f425b9cf5fa8de0ed6a2b1308fdb134
+MD5sum: 00d0d62ad2c91014f89decce81f4509c
+Description: Drivers for Canon PIXMA G3110 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Canon MegaTank PIXMA G3110 Printer.
+
+Package: cnijfilter2
+Version: 5.60-1
+Architecture: amd64
+Maintainer: Canon Inc. <sup-debian@list.canon.co.jp>
+Installed-Size: 6640
+Depends: libc6 (>= 2.7), libcupsimage2 (>= 1.4.0), libcupsys2 (>= 1.2.1) | libcups2, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.6), libxml2 (>= 2.7.4)
+Priority: optional
+Section: graphics
+Filename: pool/main/c/cnijfilter2/cnijfilter2_5.60-1_amd64.deb
+Size: 890276
+SHA256: fd9b9de3be170ba26e81c09d29226c788f5ff470da92edaaed1da37571ed6ce0
+SHA1: b441404395a458704ab891a01a0dcfe657918ac5
+MD5sum: 88a9baf9445a8b65cfd6f8bf8bc30cf9
+Description: IJ Printer Driver for Linux.
+ This IJ Printer Driver provides printing functions for Canon Inkjet
+ printers operating under the CUPS (Common UNIX Printing System) environment.
+
 Package: crede17-printers
 Version: 0.0.7
 Installed-Size: 2
@@ -1620,6 +1654,22 @@ SHA1: 2a8dd1806b575a7ea2e5178756007eba37c044c2
 MD5sum: 2df9d972011ae2a58e08a6e3d151e0d5
 Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
+
+Package: scangearmp2
+Version: 3.60-1
+Architecture: amd64
+Maintainer: Canon Inc. <sup-debian@list.canon.co.jp>
+Installed-Size: 664
+Depends: libatk1.0-0 (>= 1.29.3), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.14.0) | libpango-1.0-0, libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.6)
+Priority: optional
+Section: graphics
+Filename: pool/main/s/scangearmp2/scangearmp2_3.60-1_amd64.deb
+Size: 191766
+SHA256: 72343c7b9fe6d716fd67b78fb09d8e1b563a2efdfb5156281dc482a522c3ecdd
+SHA1: 5b5ca80b548e0b1175dccb1d310fbc5cb5c42d8d
+MD5sum: 4c75154c9dbe0c0671089c9ddffde61e
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
 
 Package: seduc-xftheme
 Version: 0.0.11

@@ -14,6 +14,23 @@ MD5sum: 1af5a5d829971e409f1ca3581581fd16
 Description: Adobe Reader allows you to view navigate and print PDF files. This version adds advanced forms support (save), better integration with Adobe Acrobat workflows, customizable toolbars and better overall performance.
 Installed-Size: 132264
 
+Package: canon-pixma-g3110
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: lsb, cnijfilter2, scangearmp2
+Homepage: https://www.canon.com.br/para-voce/impressoras-e-multifuncionais/serie-mega-tank/megatank-g3110
+Priority: optional
+Section: utils
+Filename: pool/main/c/canon-pixma-g3110/canon-pixma-g3110_0.0.1_all.deb
+Size: 698
+SHA256: cc2d85ca864a5bd4c94ed7df80fe55d1faecb783fc8f5c264db6022271408973
+SHA1: 486ad6973f425b9cf5fa8de0ed6a2b1308fdb134
+MD5sum: 00d0d62ad2c91014f89decce81f4509c
+Description: Drivers for Canon PIXMA G3110 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Canon MegaTank PIXMA G3110 Printer.
+
 Package: crede17-printers
 Version: 0.0.7
 Installed-Size: 2
