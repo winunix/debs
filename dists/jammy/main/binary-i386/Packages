@@ -32,20 +32,20 @@ Description: Drivers for Canon PIXMA G3110 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Canon MegaTank PIXMA G3110 Printer.
 
 Package: crede17-printers
-Version: 0.0.7
+Version: 0.0.8
 Installed-Size: 2
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
-Depends: lexmark-mx722, epson-l3250, epson-l210
+Depends: lexmark-mx722, epson-l3250, epson-l210, iptables-persistent
 Homepage: https://ailtonbsj.github.io
 Priority: optional
 Section: utils
-Filename: pool/main/c/crede17-printers/crede17-printers_0.0.7_all.deb
-Size: 1496
-SHA256: d78dc4a4f85577d8368eafd66f5cb1d9682784c582deb30773def0867664fe12
-SHA1: a3608660e28c7dbdf2cef55ca4eca0b8397074d8
-MD5sum: 1a5679fc15d5a23bd1a85de569b6cc04
-Description: impressoras da CREDE17.
+Filename: pool/main/c/crede17-printers/crede17-printers_0.0.8_all.deb
+Size: 1692
+SHA256: 26acb7d5cc3f5438f651bf1b9e3f3458fe5ac1f73546e0676ba9ab785db01c5f
+SHA1: 99d38c83fb8b6bcf39f0975c57c3b871d4c58893
+MD5sum: 2571a2f4b8737f9e6d1623fccaf50f38
+Description: Impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
 Package: epson-l210
