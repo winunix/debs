@@ -643,7 +643,7 @@ Description: Image Scan! Network Plugin
  expected to work with this plugin.
 
 Package: kiosk-mode-xfce4
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 2
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
@@ -651,11 +651,11 @@ Depends: xfce4
 Homepage: https://github.com/winunix/kiosk-mode-xfce4
 Priority: optional
 Section: utils
-Filename: pool/main/k/kiosk-mode-xfce4/kiosk-mode-xfce4_0.0.2_all.deb
-Size: 1120
-SHA256: 6ef8e4b8e7dedfffb30ffcc784ffa5310c851f46944096290442d729465e6f64
-SHA1: 58d1a4af8b31e941e875fc787c298d62404f991f
-MD5sum: 6eca1b94b72fb87650d512dd1138b9ea
+Filename: pool/main/k/kiosk-mode-xfce4/kiosk-mode-xfce4_0.0.3_all.deb
+Size: 1124
+SHA256: 6f817fc6b51f7cee724b6b847024cdb0b8b0d6d1f54c5ba7dabeeb96e0e96176
+SHA1: 6f22d46dacab9152743e77883b88f1979e839e6b
+MD5sum: c83960c8905a7026e5fb1fedec722da0
 Description: A tool for easy enable xfce4 kiosk mode.
  Avoid modification on wallpapers and panel (taskbar) on XFCE4 environment.
 
@@ -1364,6 +1364,30 @@ Description: Tag Image File Format (TIFF) library
  libtiff is a library providing support for the Tag Image File Format
  (TIFF), a widely used format for storing image data.  This package
  includes the shared library.
+
+Package: libvpx7
+Source: libvpx
+Version: 1.11.0-2ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3127
+Depends: libc6 (>= 2.34)
+Multi-Arch: same
+Homepage: https://www.webmproject.org
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libvpx/libvpx7_1.11.0-2ubuntu2_amd64.deb
+Size: 1077696
+SHA256: 672bdec9e603608c1eb60508a24ae34da58aba6dee01b935e7ab2a0127229d62
+SHA1: 32dd214c276f3147c84239104b27d408547ee691
+MD5sum: 100cac81dd2c8bd9012e564c5d994e73
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: libwxbase3.0-0v5
 Source: wxwidgets3.0

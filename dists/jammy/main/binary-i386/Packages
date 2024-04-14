@@ -308,7 +308,7 @@ Description: Image Scan! for Linux data files
  Image Scan! for Linux will not function without this package.
 
 Package: kiosk-mode-xfce4
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 2
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
@@ -316,11 +316,11 @@ Depends: xfce4
 Homepage: https://github.com/winunix/kiosk-mode-xfce4
 Priority: optional
 Section: utils
-Filename: pool/main/k/kiosk-mode-xfce4/kiosk-mode-xfce4_0.0.2_all.deb
-Size: 1120
-SHA256: 6ef8e4b8e7dedfffb30ffcc784ffa5310c851f46944096290442d729465e6f64
-SHA1: 58d1a4af8b31e941e875fc787c298d62404f991f
-MD5sum: 6eca1b94b72fb87650d512dd1138b9ea
+Filename: pool/main/k/kiosk-mode-xfce4/kiosk-mode-xfce4_0.0.3_all.deb
+Size: 1124
+SHA256: 6f817fc6b51f7cee724b6b847024cdb0b8b0d6d1f54c5ba7dabeeb96e0e96176
+SHA1: 6f22d46dacab9152743e77883b88f1979e839e6b
+MD5sum: c83960c8905a7026e5fb1fedec722da0
 Description: A tool for easy enable xfce4 kiosk mode.
  Avoid modification on wallpapers and panel (taskbar) on XFCE4 environment.
 
