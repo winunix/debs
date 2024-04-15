@@ -617,7 +617,7 @@ Description: A tool for manipulating screens with projectors using xrandr.
  You can run the application winunix-randr-gtk with hot key Super + P to choose which mode of screen you want.
 
 Package: winunix-software-center
-Version: 0.0.16
+Version: 0.0.18
 Installed-Size: 8
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
@@ -625,11 +625,11 @@ Depends: python2, zenity
 Homepage: https://winunix.github.io
 Priority: optional
 Section: utils
-Filename: pool/main/w/winunix-software-center/winunix-software-center_0.0.16_all.deb
-Size: 4274
-SHA256: 569e51ae427804f2e5ef2970cf97f324bff781c15862361f2b848f6631e91aad
-SHA1: 9d4b129c1af698635b30c56ff241af3db215e63d
-MD5sum: 20efd30ff09e6813212a891831718b52
+Filename: pool/main/w/winunix-software-center/winunix-software-center_0.0.18_all.deb
+Size: 4350
+SHA256: 52de1e2842920cabe40167118521552b278b86387f01d21256e775639acea933
+SHA1: ba99bf558624ff31e68d4d4e55f57b93018334f6
+MD5sum: 6f310f86ab06959bcc3dfb68fde5262e
 Description: PosInstall for Winunix.
  A GUI script for install apps post installed system.
 
