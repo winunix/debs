@@ -100,19 +100,19 @@ Description: Drivers for Epson L3150 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3150 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l3250
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3250/epson-l3250_0.0.2_all.deb
-Size: 716
-SHA256: 74981d541963c83e839a4b610f5224f600d1729d4dbaa579c0d1530ecc19ccbe
-SHA1: ccf02bb348edd4931b3970e972cbbe9475acad64
-MD5sum: 0ac34924cba8689a7a5dc8cef1a9bde5
+Filename: pool/main/e/epson-l3250/epson-l3250_0.0.3_all.deb
+Size: 732
+SHA256: 3f8d8cb4d0723d738d5b1a743785a27371b5ad7719dcf160cce5a82f06978a80
+SHA1: a373bccc06cd045f66917ada1634c2ce670a21cb
+MD5sum: 2283e81217ee6aa2b6ef544ad039ca9f
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
 
@@ -134,19 +134,19 @@ Description: Drivers for Epson L355 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L355 Printer - Multifunction InkTank.
 
 Package: epson-l375
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l375/epson-l375_0.0.2_all.deb
-Size: 734
-SHA256: 6c450df869ef4376fd24339e394cb8924d7c0da4c1ab621c58d2df5061b4a5cb
-SHA1: 8a173e3e15d4c28c1324283e7e28b2ae46d85118
-MD5sum: e1b2bd2b9ffd1fb8b69de91385492edd
+Filename: pool/main/e/epson-l375/epson-l375_0.0.3_all.deb
+Size: 730
+SHA256: 2ecd5df2cfeccb8674b217affb20f64e9353999a904e748696f5e991bce7af71
+SHA1: 11f687c6924d094caf962fa211fc4ba8d8a56a0b
+MD5sum: 313175a00a476d3ad8206da98d707065
 Description: Drivers for Epson L375 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L375 Printer - Wi-Fi Multifunction InkTank.
 
@@ -168,21 +168,21 @@ Description: Drivers for Epson L380 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L380 Printer - Multifunction InkTank.
 
 Package: epson-l396
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-printer-utility-wx, epson-inkjet-printer-escpr, imagescan, imagescan-plugin-gt-s650, imagescan-plugin-networkscan, imagescan-plugin-ocr-engine
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l396/epson-l396_0.0.2_all.deb
+Filename: pool/main/e/epson-l396/epson-l396_0.0.3_all.deb
 Size: 726
-SHA256: 1a464bb0a616f17901641ae4fab96d5790efb063fe33bd230929fe4ff0424bd2
-SHA1: 93c524bda54c33173ca418cb227cc7192c2d112e
-MD5sum: 46ddcaf027b8475918858c577a20f6f7
-Description: Drivers for Epson L396 Printer and Scan.
- A metapackage for installing printer and scanner drivers from Epson EcoTank L396 Printer - Multifunction InkTank.
+SHA256: afd3a49011deb4f78e5cf670835b2d813bab5259833b1ae591ecde2c37b2b3bf
+SHA1: c51bd64e8b64e48fd84cdb9a1bbd32b347029578
+MD5sum: d21459b2426051a853b4458fdb379ece
+Description: Drivers for Epson L395 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L395 Printer - Multifunction InkTank.
 
 Package: epson-l555
 Version: 0.0.2
