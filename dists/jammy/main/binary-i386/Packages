@@ -528,6 +528,27 @@ MD5sum: 2df9d972011ae2a58e08a6e3d151e0d5
 Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
 
+Package: seduc-xfce
+Version: 0.0.1
+Installed-Size: 
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: xfce4-panel, fonts-ceara
+Provides: seduc-xftheme, kiosk-mode-xfce4
+Conflicts: seduc-xftheme, kiosk-mode-xfce4
+Replaces: seduc-xftheme, kiosk-mode-xfce4
+Homepage: https://seduc.ce.gov.br
+Priority: optional
+Section: utils
+Filename: pool/main/s/seduc-xfce/seduc-xfce_0.0.1_all.deb
+Size: 557694
+SHA256: aeb2ea8770460c1edf1d0bbeeb5ee9928a2e8b00716fa8afa64bc104c93a335b
+SHA1: 6320de7a13749ffb0d69f9ced248e1a8d0b5ea5d
+MD5sum: 5ee3db114383d4d7c03575787d1ffb52
+Description: Several adjustments of XFCE4 for SEDUC-CE.
+ Apply some configuration files globally of XFCE4 for better appearance.
+ Also has some wallpapers and icons for SEDUC Theme.
+
 Package: seduc-xftheme
 Version: 0.0.11
 Installed-Size: 342
