@@ -146,18 +146,17 @@ Description: L380 L382 Series - Epson Inkjet Printer Driver
  (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-inkjet-printer-escpr
-Version: 1.7.17-1lsb3.2
+Version: 1.8.5-1
 Architecture: amd64
-Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
-Installed-Size: 5601
-Depends: lsb (>= 3.2)
+Maintainer: Seiko Epson Corporation <https://epson.com/>
+Installed-Size: 6095
 Priority: extra
 Section: alien
-Filename: pool/main/e/epson-inkjet-printer-escpr/epson-inkjet-printer-escpr_1.7.17-1lsb3.2_amd64.deb
-Size: 4957746
-SHA256: 405821f90f999f7a08ddbf343ffa19950f14b260dcd903617c69d0e9957d6e79
-SHA1: 25a57fc6b53deaee94c3b8bf692eb747e5b8ed70
-MD5sum: 2ff2bd8169a8432b99eb4e013c0833f4
+Filename: pool/main/e/epson-inkjet-printer-escpr/epson-inkjet-printer-escpr_1.8.5-1_amd64.deb
+Size: 3626896
+SHA256: dc8c62666b3af83c0bc962e65bf23546fa37a95888d6e3982d2dd8eaa63becc3
+SHA1: f97aed6090f64ae89602ae4a6e31f0f6381d0a29
+MD5sum: 70c5eac5ff659a2d42434a359e9afab4
 Description: Epson Inkjet Printer Driver (ESC/P-R) for Linux
  This software is a filter program used with Common UNIX Printing
  System (CUPS) from the Linux. This can supply the high quality print
@@ -351,25 +350,25 @@ Description: Epson Laser Printer Driver (ESC/Page) for Linux
  (Converted from a rpm package by alien version 8.79ubuntu0.1.)
 
 Package: epson-printer-utility
-Version: 1.1.1-1lsb3.2
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
-Installed-Size: 3800
-Depends: lsb (>= 3.2)
+Installed-Size: 1208
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.8)
 Priority: extra
 Section: alien
-Filename: pool/main/e/epson-printer-utility/epson-printer-utility_1.1.1-1lsb3.2_amd64.deb
-Size: 1284606
-SHA256: 417b637173c0b866a94eb5d9785aecbcd10fc99fd1d7149eb49f02f450e6b61f
-SHA1: 1bf7d102a9fd0c11d95f15ffae66e72fb2fc00ab
-MD5sum: 940a2066e6f72c72e21ce235e5ed3fb3
+Filename: pool/main/e/epson-printer-utility/epson-printer-utility_1.1.3-1_amd64.deb
+Size: 387044
+SHA256: 99cd93cbd5e9ea794525edde188ec34296c1877ef4b9d8b0328eb0a3745f14c1
+SHA1: 2866da16584a074370fc160e33f0ec7d05bdbfc5
+MD5sum: bf9278175ea78fb209d12b9a9fac6335
 Description: Epson Printer Utility for Linux
  This is a Printer Utility program for Epson Printer Driver.
  Using this software, you can check ink levels, view error and other status... on EPSON Printers.
  For detail list of supported printer, please refer to below site:
  http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
  .
- (Converted from a rpm package by alien version 8.86.)
+ (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-printer-utility-wx
 Version: 0.0.1
@@ -389,29 +388,29 @@ Description: Launcher of Epson Printer Utility for Linux.
  This is a Printer Utility program for Epson Printer Driver with a launcher.
 
 Package: epsonscan2
-Maintainer: Kenichi Shimoura <linux-printer@epson.jp>
+Maintainer:  Seiko Epson Corporation  <linux-printer@epson.jp>
 Architecture: amd64
-Version: 6.6.2.4-1
+Version: 6.7.63.0-1
 Priority: optional
-Section: utils
-Filename: pool/main/e/epsonscan2/epsonscan2_6.6.2.4-1_amd64.deb
-Size: 2779524
-SHA256: de6b5209dc381b2566596461349027b1ba25da221790d6fae6ec82a71826fa15
-SHA1: f91e467ca595990574e7bd0524770d01b9aaee0b
-MD5sum: b63fd22893f04358d4e6f6fc36122885
+Section: misc
+Filename: pool/main/e/epsonscan2/epsonscan2_6.7.63.0-1_amd64.deb
+Size: 3003634
+SHA256: d7e88ebf90d996946aa7c12b4510ae1af8b5f72f2fc58d167f22f9b5290a9eab
+SHA1: ad23fa280ca49f18fb428e7bd35223648881f871
+MD5sum: cdca158ac39fefe2173ecc816ef424f3
 Description: This is scanner driver.
 
 Package: epsonscan2-non-free-plugin
-Maintainer: Kenichi Shimoura <linux-printer@epson.jp>
+Maintainer:  Seiko Epson Corporation  <linux-printer@epson.jp>
 Architecture: amd64
-Version: 1.0.0.4-1
+Version: 1.0.0.6-1
 Priority: optional
-Section: utils
-Filename: pool/main/e/epsonscan2-non-free-plugin/epsonscan2-non-free-plugin_1.0.0.4-1_amd64.deb
-Size: 16225664
-SHA256: 5152335de5a01e56947de420dac4baf58cf65ea5c5214b80ef2c8d6d4c13da42
-SHA1: a315fd5ebc0487c08bd90aafae8b9ddf717c19ff
-MD5sum: 86b36489aed4005e5bbcdf2c8dd3464a
+Section: misc
+Filename: pool/main/e/epsonscan2-non-free-plugin/epsonscan2-non-free-plugin_1.0.0.6-1_amd64.deb
+Size: 25562226
+SHA256: c3d1bed0c3d2023ba563b0a9dd35120898cab6d16287e82c2822b00e8c036e51
+SHA1: 0e8f05efbb752b2f52f45bc797aeda83e1d25115
+MD5sum: 5978f94fcb8f3a6a17edcee8abf78de7
 Description: This is scanner driver non free plugins.
 
 Package: firefox
