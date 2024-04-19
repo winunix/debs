@@ -16,19 +16,19 @@ Description: Super Nintendo (SNES) emulator focused on performance.
  Bsnes is a Super Nintendo / Super Famicom emulator that began development on October 14th, 2004. It focuses on performance, features, and ease of use.
 
 Package: canon-pixma-g3110
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, cnijfilter2, scangearmp2
+Depends: cnijfilter2, scangearmp2
 Homepage: https://www.canon.com.br/para-voce/impressoras-e-multifuncionais/serie-mega-tank/megatank-g3110
 Priority: optional
 Section: utils
-Filename: pool/main/c/canon-pixma-g3110/canon-pixma-g3110_0.0.1_all.deb
-Size: 698
-SHA256: cc2d85ca864a5bd4c94ed7df80fe55d1faecb783fc8f5c264db6022271408973
-SHA1: 486ad6973f425b9cf5fa8de0ed6a2b1308fdb134
-MD5sum: 00d0d62ad2c91014f89decce81f4509c
+Filename: pool/main/c/canon-pixma-g3110/canon-pixma-g3110_0.0.2_all.deb
+Size: 694
+SHA256: 19f81aaf5a00a8778233298f88cea117666d3b74412a9f59a9e625efbf2d2d1f
+SHA1: c0289b3a1ef8f2eebb35e6ad1fd41601055f9c96
+MD5sum: ca6a51df717d874b5b4fd54859a9deaa
 Description: Drivers for Canon PIXMA G3110 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Canon MegaTank PIXMA G3110 Printer.
 
@@ -67,18 +67,18 @@ Description: Impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
 Package: epson-inkjet-printer-201207w
-Version: 1.0.0-1lsb3.2
+Version: 1.0.1-1
 Architecture: amd64
 Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
-Installed-Size: 2977
-Depends: lsb (>= 3.2)
+Installed-Size: 2967
+Depends: cups
 Priority: extra
 Section: alien
-Filename: pool/main/e/epson-inkjet-printer-201207w/epson-inkjet-printer-201207w_1.0.0-1lsb3.2_amd64.deb
-Size: 1871242
-SHA256: 846b3b5882260c5fc7c4c0c10adc3f7ac2a8f6f1b30231b11825709bb6b53945
-SHA1: 5c0306bf97da8da53c92fce7851db8e942e72b00
-MD5sum: a6296026fe7456985581b96594bd326d
+Filename: pool/main/e/epson-inkjet-printer-201207w/epson-inkjet-printer-201207w_1.0.1-1_amd64.deb
+Size: 1868216
+SHA256: 133fbe4ce9e9333e22660238ae38afbdea2efc46367d16c4641a70b015a84539
+SHA1: a13751d056f6a68c6c6ad7dafdeaf9d4619ef48e
+MD5sum: 09250ef8dd99a5d2dca24e4ef70cb935
 Description: EPSON L110/210/300/350/355/550/555 Series - Epson Inkjet Printer Driver
  This software is a filter program used with Common UNIX Printing
  System (CUPS) from the Linux. This can supply the high quality print
@@ -108,18 +108,18 @@ Description: EPSON L110/210/300/350/355/550/555 Series - Epson Inkjet Printer Dr
  (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-inkjet-printer-201601w
-Version: 1.0.0-1lsb3.2
+Version: 1.0.1-1
 Architecture: amd64
 Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
-Installed-Size: 2673
-Depends: lsb (>= 3.2)
+Installed-Size: 2685
+Depends: cups
 Priority: extra
 Section: alien
-Filename: pool/main/e/epson-inkjet-printer-201601w/epson-inkjet-printer-201601w_1.0.0-1lsb3.2_amd64.deb
-Size: 1721266
-SHA256: 78dc4f7f3c8a14475c6274c9d750a4e7c7154abdeee9b7bf02a6b4f54d7aff32
-SHA1: 71ce91cfb8817a195f444ad0ceff03c35653b2ff
-MD5sum: afd911aa675e911f21d6864fbd854f6c
+Filename: pool/main/e/epson-inkjet-printer-201601w/epson-inkjet-printer-201601w_1.0.1-1_amd64.deb
+Size: 1723528
+SHA256: b281cb5775def2e9cade419ce430619e38563cd2b6bd2247745816299077281a
+SHA1: 0a48885beb4ad8af8bf130b0b7e2fe7c6cb4f7cf
+MD5sum: 07ac4d68e3d05be4f20b7a1f76dbf301
 Description: L380 L382 Series - Epson Inkjet Printer Driver
  This software is a filter program used with Common UNIX Printing
  System (CUPS) from the Linux. This can supply the high quality print
@@ -171,58 +171,58 @@ Description: Epson Inkjet Printer Driver (ESC/P-R) for Linux
  (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-l210
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
+Depends: libcupsimage2, libqt5widgets5, epson-printer-utility, epson-inkjet-printer-201207w, iscan, iscan-data, iscan-network-nt
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l210/epson-l210_0.0.2_all.deb
-Size: 710
-SHA256: 956e129b3765eff42360a21e820b32c37079383221345164b26448444b0efed1
-SHA1: 36eece6a234357e98e22df80519f3c118b80e14d
-MD5sum: 7ab37027b3cbfd302c0dfe954c6ac50e
+Filename: pool/main/e/epson-l210/epson-l210_0.0.3_all.deb
+Size: 726
+SHA256: e7249b542026e58fab67196588df34dd5b00789504b550d56d6dd3b52c896278
+SHA1: 83a03d5d1a6e82934a5e16b43923f2c1735595fa
+MD5sum: 3ce7633e222db948569b728093a270ad
 Description: Drivers for Epson L210 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L210 Printer - Multifunction InkTank.
 
 Package: epson-l3110
-Version: 0.0.3
+Version: 0.0.4
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3110/epson-l3110_0.0.3_all.deb
-Size: 716
-SHA256: 8d8066a4b839f45b22b10b005d79dbe7ec154318134b221468a3e516e56c526b
-SHA1: e4b3df1295f5fb2a7c0154973045e615a8a45351
-MD5sum: 57d69f58482c7363727bb214b8bd5984
+Filename: pool/main/e/epson-l3110/epson-l3110_0.0.4_all.deb
+Size: 734
+SHA256: 2b4d829c4e6a3f47bcffd8fe197726c0c89a95ec5a13d578459e8f122630b162
+SHA1: f5e9aff99c3911718b63f67ad3164736f042cd43
+MD5sum: f15ec200b18feb3e7f4cc92273c19ff1
 Description: Drivers for Epson L3110 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3110 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l3150
-Version: 0.0.3
+Version: 0.0.4
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-escpr, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3150/epson-l3150_0.0.3_all.deb
-Size: 716
-SHA256: c277bd114c5afb90dfbd5b00465f7b69b3d7033b8aa0a4873929058401404bff
-SHA1: bfe68efb8538b60a90ced9f476d7734b4cf29429
-MD5sum: 83c2c98f679a1d5988d1ae830aad9306
+Filename: pool/main/e/epson-l3150/epson-l3150_0.0.4_all.deb
+Size: 734
+SHA256: d1565ad4a97d08605220f037d9687c43b1271cabafeceaf1bcbe87bf7738bff4
+SHA1: f512475383587e4beb8f4b989e3ca4e28c98cef3
+MD5sum: 1b4d78c8148d71f6b5835efa04422934
 Description: Drivers for Epson L3150 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3150 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l3250
-Version: 0.0.3
+Version: 0.0.5
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
@@ -230,33 +230,33 @@ Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printe
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l3250/epson-l3250_0.0.3_all.deb
-Size: 732
-SHA256: 3f8d8cb4d0723d738d5b1a743785a27371b5ad7719dcf160cce5a82f06978a80
-SHA1: a373bccc06cd045f66917ada1634c2ce670a21cb
-MD5sum: 2283e81217ee6aa2b6ef544ad039ca9f
+Filename: pool/main/e/epson-l3250/epson-l3250_0.0.5_all.deb
+Size: 734
+SHA256: 6389b1bc7378b23dd37c37579e0bafd66af044d5ee9c4fd9300a0a81f1552806
+SHA1: 2f865befbc11294636303d067a2524eb0eae31aa
+MD5sum: e33b351bb7e954a1c3793acfdb3dfe04
 Description: Drivers for Epson L3250 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L3250 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l355
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
+Depends: libcupsimage2, libqt5widgets5, epson-printer-utility, epson-inkjet-printer-201207w, iscan, iscan-data, iscan-network-nt
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l355/epson-l355_0.0.2_all.deb
-Size: 712
-SHA256: fd7fd9bba6f5ed3821e63c98e07e137632ccdb76ba77445bb0f56940adf292ce
-SHA1: 3781cc0d99ca41910c640e73d76f3424dec8c38f
-MD5sum: ba89624234197a55275de7d1517362f5
+Filename: pool/main/e/epson-l355/epson-l355_0.0.3_all.deb
+Size: 726
+SHA256: 1d5884e882222bee22eca7f2fbd5e8e6d82bcace6d225eac9eb4b46b83fea9fd
+SHA1: d7906077e16d440f51252e0ca993bb1a8adf52c5
+MD5sum: a6ed0b18855a2f979fc9aff14f821623
 Description: Drivers for Epson L355 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L355 Printer - Multifunction InkTank.
 
 Package: epson-l375
-Version: 0.0.3
+Version: 0.0.5
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
@@ -264,33 +264,33 @@ Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printe
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l375/epson-l375_0.0.3_all.deb
+Filename: pool/main/e/epson-l375/epson-l375_0.0.5_all.deb
 Size: 730
-SHA256: 2ecd5df2cfeccb8674b217affb20f64e9353999a904e748696f5e991bce7af71
-SHA1: 11f687c6924d094caf962fa211fc4ba8d8a56a0b
-MD5sum: 313175a00a476d3ad8206da98d707065
+SHA256: 0a2c589166481aea106fa37f88949da4a264c3ec5511f29f8edc692aae913107
+SHA1: 851c1446dcb91757d8577faa50c752ed81aba33c
+MD5sum: dca357e2407a8dd3265e32ec9be38d79
 Description: Drivers for Epson L375 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L375 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-l380
-Version: 0.0.2
+Version: 0.0.3
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201601w, epson-printer-utility-wx, epsonscan2, epsonscan2-non-free-plugin
+Depends: libcupsimage2, libqt5widgets5, epson-printer-utility, epson-inkjet-printer-201601w, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l380/epson-l380_0.0.2_all.deb
-Size: 714
-SHA256: 8134e22c924faeb8bfd9e1f16ce967e04620f5609b3ce1acb754f61960172ad9
-SHA1: f9f14fefabeefedc251ad8563aaa50f2c4d9ab95
-MD5sum: 054094229104631cfd28880231822cd9
+Filename: pool/main/e/epson-l380/epson-l380_0.0.3_all.deb
+Size: 728
+SHA256: 0656e9e5b2b19b8bb4e523cda45c48a01d441a570a477ba518701f3e7ac9ffc8
+SHA1: 26dd4c43773c1a2fd9ac70c4bb22c0110ab8cca7
+MD5sum: 43711590b62c71b37d17784787954708
 Description: Drivers for Epson L380 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L380 Printer - Multifunction InkTank.
 
-Package: epson-l396
-Version: 0.0.3
+Package: epson-l395
+Version: 0.0.4
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
@@ -298,45 +298,61 @@ Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printe
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l396/epson-l396_0.0.3_all.deb
-Size: 726
-SHA256: afd3a49011deb4f78e5cf670835b2d813bab5259833b1ae591ecde2c37b2b3bf
-SHA1: c51bd64e8b64e48fd84cdb9a1bbd32b347029578
-MD5sum: d21459b2426051a853b4458fdb379ece
+Filename: pool/main/e/epson-l395/epson-l395_0.0.4_all.deb
+Size: 728
+SHA256: 402f12d0afc46941ad2522481d1671fd7e5cf03aa50dedcdc77a1856bdf76309
+SHA1: 2fc80d702862ef628939e8d2bd97c3528eac9933
+MD5sum: d5fa3ebfa2705ce424e0d1a95a91d410
 Description: Drivers for Epson L395 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L395 Printer - Multifunction InkTank.
 
-Package: epson-l555
-Version: 0.0.2
+Package: epson-l396
+Version: 0.0.4
 Installed-Size: 1
 Maintainer: crasheddie <crash.eddie123@gmail.com>
 Architecture: all
-Depends: lsb, epson-inkjet-printer-201207w, epson-pc-fax, epson-printer-utility-wx, iscan, iscan-data, iscan-network-nt
+Depends: libcupsimage2, libqt5widgets5, epson-inkjet-printer-escpr, epson-printer-utility, epsonscan2, epsonscan2-non-free-plugin
 Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 Priority: optional
 Section: utils
-Filename: pool/main/e/epson-l555/epson-l555_0.0.2_all.deb
-Size: 724
-SHA256: b0d2756a60b29332d84cbf8a9130df4cfc16445f559f27a6af4555a607d43fba
-SHA1: 42f94bf130d655b26848155df141de6d0821b8d1
-MD5sum: 8e89495c5b94a5f937a60d66fdbe0c61
+Filename: pool/main/e/epson-l396/epson-l396_0.0.4_all.deb
+Size: 728
+SHA256: 5f2867ee81b927332e642e4843a1e095876fe9e38f76c0c9a2742429ea14f8e7
+SHA1: d2bcb4880bbb5995f72de6fffc6379e279ce18cd
+MD5sum: 3b027b42308d0182be04bbd5a3d631df
+Description: Drivers for Epson L396 Printer and Scan.
+ A metapackage for installing printer and scanner drivers from Epson EcoTank L396 Printer - Multifunction InkTank.
+
+Package: epson-l555
+Version: 0.0.3
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: libqt5widgets5, epson-printer-utility, epson-pc-fax, epson-inkjet-printer-201207w, iscan, iscan-data, iscan-network-nt
+Homepage: http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+Priority: optional
+Section: utils
+Filename: pool/main/e/epson-l555/epson-l555_0.0.3_all.deb
+Size: 728
+SHA256: 4f6e20b4129c8f836cb02e6e25e15c9d79a892c99787273bf5bc89bf26509230
+SHA1: 167c75fb7f8fa3c8db3eb9ca3fe47906f6ff445d
+MD5sum: f639bbef174a7113ebf79e56d0543fdb
 Description: Drivers for Epson L555 Printer and Scan.
  A metapackage for installing printer and scanner drivers from Epson EcoTank L555 Printer - Wi-Fi Multifunction InkTank.
 
 Package: epson-pc-fax
-Version: 1.0.0-1lsb3.2
+Version: 1.1.1-1
 Architecture: amd64
-Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
-Installed-Size: 55648
-Depends: lsb (>= 3.2)
+Maintainer: Seiko Epson Corporation <https://epson.com/>
+Installed-Size: 58628
 Priority: extra
 Section: alien
-Filename: pool/main/e/epson-pc-fax/epson-pc-fax_1.0.0-1lsb3.2_amd64.deb
-Size: 20472890
-SHA256: b2bb97077c2f7103acd61df5ec46772d9973b585c90a5744c77a45a3df45de6e
-SHA1: fc779d0d75e60ba5e1ed4343910f932bfad9513a
-MD5sum: 072d80886b73832875c538ece9565d04
-Description: Epson Laser Printer Driver (ESC/Page) for Linux
+Filename: pool/main/e/epson-pc-fax/epson-pc-fax_1.1.1-1_amd64.deb
+Size: 14736078
+SHA256: b80024b6867e30f376af586c8257cb070d67f31f01958608a9c2cb23d0f197e3
+SHA1: 93530fb4fd7ce804cde0c096c4426116ddfc6d89
+MD5sum: 8af471e19c52a0e0363edc76f91d2955
+Description: Epson PC-Fax Driver for Linux
  This software is a filter program used with Common UNIX Printing
  System (CUPS) from the Linux. This can supply the fax
  with Seiko Epson Fax.
@@ -347,7 +363,7 @@ Description: Epson Laser Printer Driver (ESC/Page) for Linux
  For detail list of supported printer, please refer to below site:
  http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
  .
- (Converted from a rpm package by alien version 8.79ubuntu0.1.)
+ (Converted from a rpm package by alien version 8.95.)
 
 Package: epson-printer-utility
 Version: 1.1.3-1
@@ -427,6 +443,23 @@ Size: 630
 SHA256: 26ff6b1631130e4eb9e239b717e15907988a405f9ce786fe2f448687561f8260
 SHA1: c257926d18c56bf515841eb859349a87ff1132d4
 MD5sum: 7ff621535dfe7e73923cc6d020d8847c
+Description: Firefox without Snap.
+ Install firefox with Ubuntu Snap.
+
+Package: firefox-deb
+Version: 125.0
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: firefox (>= 125.0~b9+build1-0ubuntu0.24.04.1)
+Homepage: https://launchpad.net/~mozillateam/+archive/ubuntu/ppa
+Priority: optional
+Section: utils
+Filename: pool/main/f/firefox-deb/firefox-deb_125.0_all.deb
+Size: 634
+SHA256: b6c4d96ef8bc5a2c2d5401b82115ce95529302d50f00e64ba1d8afad5d220f10
+SHA1: 3e2abbd201fb3babfc8454c43c316a5f2aafea55
+MD5sum: d161bcfcea3ac46de6792f608a1d66ed
 Description: Firefox without Snap.
  Install firefox with Ubuntu Snap.
 
