@@ -14,6 +14,22 @@ MD5sum: 1af5a5d829971e409f1ca3581581fd16
 Description: Adobe Reader allows you to view navigate and print PDF files. This version adds advanced forms support (save), better integration with Adobe Acrobat workflows, customizable toolbars and better overall performance.
 Installed-Size: 132264
 
+Package: appsedu-ng
+Version: 0.0.1
+Installed-Size: 325
+Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: xdotool, mesa-utils, zenity
+Priority: optional
+Section: science
+Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.1_all.deb
+Size: 231760
+SHA256: 3d9c7b598f4fd2dfd95f54ab5f963486402c5add5bb3b3f65a894f3c78a50cb1
+SHA1: 99c4f196f4f02d0afcab18d752a9c1c79be79d47
+MD5sum: fc1340b18f49df10a87f32e18392fbe4
+Description: Submenus for Educational Applications
+ Educational applications were divided into submenus in the Educational category.
+
 Package: canon-pixma-g3110
 Version: 0.0.2
 Installed-Size: 1
