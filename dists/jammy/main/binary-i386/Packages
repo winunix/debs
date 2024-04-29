@@ -337,6 +337,35 @@ MD5sum: d8765d4963e69021c4b75d9f1df41c31
 Description: Isidora fonts
  Isidora is a modern geometric font based on the classic typefaces of the early 21st Century yet with a contemporary and functional touch.
 
+Package: gconf2-common
+Source: gconf
+Version: 3.2.6-7ubuntu2
+Architecture: all
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 6377
+Depends: ucf
+Breaks: libgconf2-4 (<< 3.2.3-2)
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/Archive/gconf
+Priority: optional
+Section: libs
+Filename: pool/main/g/gconf/gconf2-common_3.2.6-7ubuntu2_all.deb
+Size: 698128
+SHA256: 627d708d8f282821f3ec7d9f08060cc5b7cc3a737b1e30e91da710c915a71482
+SHA1: 5301ebb46c281e9871dc04e8dd04566eb5f6ca3e
+MD5sum: 36a47efe808f1c6a8d764d8150ab7caf
+Description: GNOME configuration database system (common files)
+ GConf is a configuration database system for storing application
+ preferences. It supports default or mandatory settings set by the
+ administrator, and changes to the database are instantly applied to all
+ running applications. It is written for the GNOME desktop but doesn't
+ require it.
+ .
+ This package contains the default configuration and localization files.
+ .
+ This package is for legacy applications and no longer used by GNOME.
+Original-Maintainer: Josselin Mouette <joss@debian.org>
+
 Package: google-labs-cow
 Version: 0.0.2
 Installed-Size: 85012
