@@ -15,18 +15,18 @@ Description: Adobe Reader allows you to view navigate and print PDF files. This 
 Installed-Size: 132264
 
 Package: appsedu-ng
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 325
 Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
 Architecture: all
 Depends: xdotool, mesa-utils, zenity
 Priority: optional
 Section: science
-Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.1_all.deb
-Size: 231760
-SHA256: 3d9c7b598f4fd2dfd95f54ab5f963486402c5add5bb3b3f65a894f3c78a50cb1
-SHA1: 99c4f196f4f02d0afcab18d752a9c1c79be79d47
-MD5sum: fc1340b18f49df10a87f32e18392fbe4
+Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.2_all.deb
+Size: 299538
+SHA256: adc5a4410171b61e135f769c616c4510cde9ea66f69a3f23c6958cfd3ff598f0
+SHA1: fd61b006152b544a82e399312b043ed308b9adcb
+MD5sum: 7cf16c2eb41b4b70d2cdc081bb47152a
 Description: Submenus for Educational Applications
  Educational applications were divided into submenus in the Educational category.
 
@@ -336,6 +336,25 @@ SHA1: d6b120752bfa4866320b47197c7b1b3f4c90c82a
 MD5sum: d8765d4963e69021c4b75d9f1df41c31
 Description: Isidora fonts
  Isidora is a modern geometric font based on the classic typefaces of the early 21st Century yet with a contemporary and functional touch.
+
+Package: google-labs-cow
+Version: 0.0.2
+Installed-Size: 85012
+Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: python3, xdotool
+Homepage: https://code.google.com/archive/p/open-3d-viewer/
+Priority: optional
+Section: science
+Filename: pool/main/g/google-labs-cow/google-labs-cow_0.0.2_all.deb
+Size: 22349820
+SHA256: 1bc09cb60304d5778633ef1fe242a9f94a1ab6c289533b943932015932cf3afc
+SHA1: 4f121f65329148a8dba71076bd3cca9347041c37
+MD5sum: 6f44888c4d93f07d656c60931065127e
+Description: Antigo projeto do Google Cow
+ Mostra a anatomia de uma vaca, podendo ver cada sistema como ossos, musculos e outros
+ .
+ Shows the anatomy of a cow, being able to see each system as bones, muscles and others
 
 Package: iscan-data
 Version: 1.39.2-1
