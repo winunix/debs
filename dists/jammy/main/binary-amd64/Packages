@@ -82,6 +82,42 @@ MD5sum: 2571a2f4b8737f9e6d1623fccaf50f38
 Description: Impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
+Package: digital-simulator
+Version: 0.30
+Installed-Size: 15073
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: default-jre
+Homepage: https://github.com/hneemann/Digital
+Priority: optional
+Section: science
+Filename: pool/main/d/digital-simulator/digital-simulator_0.30_all.deb
+Size: 5776568
+SHA256: b978123d1a20c266b513970272e7faa703ee726813c07b9486994620c2157464
+SHA1: 2b1eb162edecbf1675689b1b377b9084b01dc3b7
+MD5sum: 5f442e988811d027eac44a0a83402f7f
+Description: A digital logic designer and circuit simulator.
+ Digital is a easy-to-use digital logic designer and circuit simulator designed for educational purposes.
+
+Package: elements
+Version: 1.2.1
+License: CC-0
+Vendor: Florian Fechner <f_fech03@uni-muenster.de>
+Architecture: amd64
+Maintainer: Florian Fechner <f_fech03@uni-muenster.de>
+Installed-Size: 203899
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libappindicator3-1, libsecret-1-0
+Homepage: https://github.com/FlorianFe/Elements#readme
+Priority: extra
+Section: default
+Filename: pool/main/e/elements/elements_1.2.1_amd64.deb
+Size: 56059018
+SHA256: 2f9a9c0954b59c2850a821b04b5a541dc5793d8d3c0dd489cfe01f237a1b2a0c
+SHA1: 74a5fd416937661a3ec0544812be794f10846b86
+MD5sum: 0e59134da95cf83ae2f260c2d70b2c68
+Description: 
+  A periodic table viewer desktop app
+
 Package: epson-inkjet-printer-201207w
 Version: 1.0.1-1
 Architecture: amd64

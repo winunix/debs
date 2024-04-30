@@ -64,6 +64,23 @@ MD5sum: 2571a2f4b8737f9e6d1623fccaf50f38
 Description: Impressoras da CREDE17.
  Instala drivers e adiciona todas as impressoras da CREDE17.
 
+Package: digital-simulator
+Version: 0.30
+Installed-Size: 15073
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Depends: default-jre
+Homepage: https://github.com/hneemann/Digital
+Priority: optional
+Section: science
+Filename: pool/main/d/digital-simulator/digital-simulator_0.30_all.deb
+Size: 5776568
+SHA256: b978123d1a20c266b513970272e7faa703ee726813c07b9486994620c2157464
+SHA1: 2b1eb162edecbf1675689b1b377b9084b01dc3b7
+MD5sum: 5f442e988811d027eac44a0a83402f7f
+Description: A digital logic designer and circuit simulator.
+ Digital is a easy-to-use digital logic designer and circuit simulator designed for educational purposes.
+
 Package: epson-l210
 Version: 0.0.3
 Installed-Size: 1
