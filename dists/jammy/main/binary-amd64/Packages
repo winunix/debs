@@ -531,6 +531,30 @@ MD5sum: d8765d4963e69021c4b75d9f1df41c31
 Description: Isidora fonts
  Isidora is a modern geometric font based on the classic typefaces of the early 21st Century yet with a contemporary and functional touch.
 
+Package: gcad3d
+Version: 2.60.04
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgl1, libglu1, libgtk2.0-0, libgtkgl2.0-1, libjpeg-progs, tar (>= 1)
+Installed-Size: 4506
+Maintainer: Franz Reiter <support@gcad3d.org>
+Homepage: https://www.gcad3d.org
+License: GPL-3
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gcad3d/gcad3d_2.60.04_amd64.deb
+Size: 1874790
+SHA256: 9cb016d0f6f04a1bf2e5237f2a19df3422d2060ece1f399fedbba00ec4208ea6
+SHA1: b17dda3f84d41b15a695410a6eb7547e4b33c5ed
+MD5sum: 2a98cc8d5671f99e97d74e9713ef8366
+Description: 3D CAD-CAM Application
+  with
+    * import and export-programs (Step, Iges, VRML, DXF, SVG ..),
+    * integrated 3D-OpenGL viewer,
+    * program interpreter for geometry and NC commands in 3D,
+    * integrated NC processor.
+    * programming interface for userprograms (plugins).
+  Start gCAD3D in Graphics-menu or "gcad3d" from console.
+
 Package: gconf2-common
 Source: gconf
 Version: 3.2.6-7ubuntu2
@@ -962,6 +986,30 @@ Description: GNOME configuration database system (shared libraries)
  .
  This package is for legacy applications and no longer used by GNOME.
 Original-Maintainer: Josselin Mouette <joss@debian.org>
+
+Package: libgtkgl2.0-1
+Source: gtkgl2
+Version: 2.1.0-1
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 46
+Depends: libc6 (>= 2.4), libgl1, libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libx11-6
+Multi-Arch: same
+Homepage: http://www.mono-project.com/GtkGLArea
+Priority: optional
+Section: libs
+Filename: pool/main/g/gtkgl2/libgtkgl2.0-1_2.1.0-1_amd64.deb
+Size: 15016
+SHA256: 8009e2ec1c870f9212cce8dcf2000bbc7ec53ad88111a7bcc18fc59e1030c95b
+SHA1: 85a4d7cbf76f0cb5943720154f1c98db83024809
+MD5sum: d3ff01929770acad68692d651da7aa3c
+Description: OpenGL context support for GTK+ (shared libraries)
+ The gtkgl library provides GtkGLArea (a GTK+ widget containing an OpenGL
+ context for fast 2D and 3D graphics), GdkGLPixmap (an off-screen rendering
+ context) and GdkGLContext (an OpenGL extension for virtually any drawable
+ widget).
+ .
+ This package contains the shared library.
 
 Package: libgtksourceview2.0-0
 Source: gtksourceview2
