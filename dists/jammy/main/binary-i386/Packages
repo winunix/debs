@@ -366,6 +366,22 @@ Description: GNOME configuration database system (common files)
  This package is for legacy applications and no longer used by GNOME.
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 
+Package: goldendict-extras-pt
+Version: 0.4.2
+Installed-Size: 73044
+Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: goldendict
+Priority: optional
+Section: science
+Filename: pool/main/g/goldendict-extras-pt/goldendict-extras-pt_0.4.2_all.deb
+Size: 70936488
+SHA256: 74b18f8a47a67144d20d06ae36154a228409c4b07d6d8f2aaa798349ca18df85
+SHA1: ac7b5c30002935e99dc53472e5af4c7cbf561e23
+MD5sum: 3b9cd51dbbc087fc11bc04fa4b52518f
+Description: Dicionários em Português para o GoldenDict.
+ Dicionário Aurélio, Houaiss e Michaelis em português. Babylon em Inglês e Michaelis em Espanhol.
+
 Package: google-labs-cow
 Version: 0.0.2
 Installed-Size: 85012
