@@ -710,6 +710,23 @@ Description: Image Scan v3 OCR Engine Plugin
  .
  Currently, it only supports document orientation detection.
 
+Package: irydium-chemistry-lab
+Version: 2.1.2
+Installed-Size: 33796
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Homepage: http://chemcollective.org/vlab_download
+Priority: optional
+Section: science
+Filename: pool/main/i/irydium-chemistry-lab/irydium-chemistry-lab_2.1.2_all.deb
+Size: 14568364
+SHA256: 6023ae46d9f8e5f458333c1b180ed9c0dacc7390a77f07a2c1ec52e90df76f72
+SHA1: a9ae90b9eae3ea62e1419c3c447911a57d0496c6
+MD5sum: 12b14063768e841d57f81d4881dff526
+Description: Virtual Chemistry Laboratory.
+ An Virtual Chemistry Laboratory from The irYdium Project's.
+ You need Java installed to run correctly.
+
 Package: iscan
 Version: 2.30.4-2
 Architecture: amd64
