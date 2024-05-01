@@ -1064,6 +1064,26 @@ Description: GNOME configuration database system (shared libraries)
  This package is for legacy applications and no longer used by GNOME.
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 
+Package: libgl1-mesa-glx
+Source: mesa
+Version: 22.0.1-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 70
+Depends: libgl1, libglx-mesa0
+Multi-Arch: same
+Homepage: https://mesa3d.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/m/mesa/libgl1-mesa-glx_22.0.1-1ubuntu2_amd64.deb
+Size: 5456
+SHA256: 51028c0e3a16ae872fc537685d46eef4ed5778c548cf7b4d544bb858e3ff310d
+SHA1: 1004230284b5475d81083a58982263018672218d
+MD5sum: 42ec65d32de4d244f3670d979f868cd1
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: libgtkgl2.0-1
 Source: gtkgl2
 Version: 2.1.0-1
