@@ -118,6 +118,25 @@ MD5sum: 0e59134da95cf83ae2f260c2d70b2c68
 Description: 
   A periodic table viewer desktop app
 
+Package: energy2d
+Version: 3.0.0
+Installed-Size: 2896
+Maintainer: charxie <charxie@gmail.com>
+Architecture: all
+Depends: default-jre | openjdk-8-jre
+Homepage: https://energy.concord.org/energy2d
+Priority: optional
+Section: utils
+Filename: pool/main/e/energy2d/energy2d_3.0.0_all.deb
+Size: 1521544
+SHA256: db35372a6a8376eaf98831772243394dc46806925dd0321dcdd8f7f697a021c9
+SHA1: 2ae9aa7bf539c8f3d5e7b24b95dff64e90896756
+MD5sum: 4cd99782a3d1b8a55e43e910db772a01
+Description: Simulações interativas de transferência de calor
+ O Energy2D é um programa interativo de simulação multifísica que modela os três modos de transferência de calor - condução, convecção e radiação e seu acoplamento com a dinâmica das partículas.
+ .
+ Energy2D is an interactive multiphysics simulation program that models all three modes of heat transfer—conduction, convection, and radiation, and their coupling with particle dynamics.
+
 Package: epson-inkjet-printer-201207w
 Version: 1.0.1-1
 Architecture: amd64
