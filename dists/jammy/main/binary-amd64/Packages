@@ -1,16 +1,16 @@
 Package: appsedu-ng
-Version: 0.0.3
-Installed-Size: 325
+Version: 0.0.4
+Installed-Size: 2212
 Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
 Architecture: all
 Depends: xdotool, mesa-utils, zenity
 Priority: optional
 Section: science
-Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.3_all.deb
-Size: 603800
-SHA256: 1a91dbfeaed19bd36d7d6d00a7fc1ace43652ff41bad9124a07359e27ba1f59d
-SHA1: d5160e6bbd696c0d5229c1ba39d0e136e2cdc097
-MD5sum: f2eed6cf7a6bf3697da691c27744e57f
+Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.4_all.deb
+Size: 791774
+SHA256: 696ae769aeed1d41126d9105b8cd633440e3f80214705cb0cf55c76c2d1523a8
+SHA1: c531838d3d989c7a5e6f09d9099bc2d6208842c8
+MD5sum: 5db1c1f0f5ac65f9f5e92a1c955f7d79
 Description: Submenus for Educational Applications
  Educational applications were divided into submenus in the Educational category.
 
