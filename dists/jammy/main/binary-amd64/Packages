@@ -2383,6 +2383,22 @@ MD5sum: 4c75154c9dbe0c0671089c9ddffde61e
 Description: ScanGear MP for Linux.
  This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
 
+Package: seduc-robust-dhcp
+Version: 0.0.1
+Installed-Size: 5
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Architecture: all
+Homepage: https://github.com/ailtonbsj/seduc-robust-dhcp
+Priority: optional
+Section: utils
+Filename: pool/main/s/seduc-robust-dhcp/seduc-robust-dhcp_0.0.1_all.deb
+Size: 1068
+SHA256: 1ea46fbcbafc330521792590864ea28daab5c17659c11541571291a3665b6f41
+SHA1: 6f01a9b2323056c09fae29639a5f8a940ce04591
+MD5sum: 4d814d8700d9460817acde2ab615dd05
+Description: Avoid rougue routers on a SEDUC's private network.
+ Avoid that machine get IPs from DHCP with default network like 192.168.0.0/24 or 192.168.1.0/24.
+
 Package: seduc-xfce
 Version: 0.0.5
 Installed-Size: 611
