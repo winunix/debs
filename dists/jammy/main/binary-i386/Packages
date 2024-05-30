@@ -775,22 +775,22 @@ Description: Avoid rougue routers on a SEDUC's private network.
  Avoid that machine get IPs from DHCP with default network like 192.168.0.0/24 or 192.168.1.0/24.
 
 Package: seduc-xfce
-Version: 0.0.5
+Version: 0.0.6
 Installed-Size: 611
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
-Depends: xfce4-panel, fonts-ceara
+Depends: xfce4-panel, fonts-ceara, papirus-icon-theme
 Provides: seduc-xftheme, kiosk-mode-xfce4
 Conflicts: seduc-xftheme, kiosk-mode-xfce4
 Replaces: seduc-xftheme, kiosk-mode-xfce4
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xfce/seduc-xfce_0.0.5_all.deb
-Size: 558022
-SHA256: 052421e5ab02f5dbe76438351d6cf661ddf5d1417b51d49e3e9ff155bfb4eb7b
-SHA1: 48494a7919a07531ffc5b79da3b1a27e60a1ebea
-MD5sum: 3191dca411c7a8c8d84d96760b783338
+Filename: pool/main/s/seduc-xfce/seduc-xfce_0.0.6_all.deb
+Size: 558636
+SHA256: 16674a7c0cc802a28afa0669f42d4342690af5c89ba02f156024923d3bb8461e
+SHA1: 43d4f1eda0173b44222e8f389970d125e57c3042
+MD5sum: c333858de8f080b18a207f33dd72e3a5
 Description: Several adjustments of XFCE4 for SEDUC-CE.
  Apply some configuration files globally of XFCE4 for better appearance.
  Also has some wallpapers and icons for SEDUC Theme.
