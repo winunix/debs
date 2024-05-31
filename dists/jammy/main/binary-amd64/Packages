@@ -2400,7 +2400,7 @@ Description: Avoid rougue routers on a SEDUC's private network.
  Avoid that machine get IPs from DHCP with default network like 192.168.0.0/24 or 192.168.1.0/24.
 
 Package: seduc-xfce
-Version: 0.0.6
+Version: 0.0.7
 Installed-Size: 611
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Architecture: all
@@ -2411,11 +2411,11 @@ Replaces: seduc-xftheme, kiosk-mode-xfce4
 Homepage: https://seduc.ce.gov.br
 Priority: optional
 Section: utils
-Filename: pool/main/s/seduc-xfce/seduc-xfce_0.0.6_all.deb
-Size: 558636
-SHA256: 16674a7c0cc802a28afa0669f42d4342690af5c89ba02f156024923d3bb8461e
-SHA1: 43d4f1eda0173b44222e8f389970d125e57c3042
-MD5sum: c333858de8f080b18a207f33dd72e3a5
+Filename: pool/main/s/seduc-xfce/seduc-xfce_0.0.7_all.deb
+Size: 558664
+SHA256: b6cccf5a7836bc1bfe38e15429838c6efb579abb0e3d613ccf8417c7a974e8bc
+SHA1: 7518e88df2560df03aac46687152da6359becec0
+MD5sum: 2c7873a7c29472914b2936221e15ac3a
 Description: Several adjustments of XFCE4 for SEDUC-CE.
  Apply some configuration files globally of XFCE4 for better appearance.
  Also has some wallpapers and icons for SEDUC Theme.
