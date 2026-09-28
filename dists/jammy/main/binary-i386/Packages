@@ -15,18 +15,18 @@ Description: Adobe Reader allows you to view navigate and print PDF files. This 
 Installed-Size: 132264
 
 Package: appsedu-ng
-Version: 0.0.10
+Version: 0.0.11
 Installed-Size: 1044
 Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
 Architecture: all
 Depends: xdotool, mesa-utils, zenity
 Priority: optional
 Section: science
-Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.10_all.deb
-Size: 800558
-SHA256: d2a9e946e3af978f1ce79d2440aba28df8a8913b0e26ec212b29bc5c300cd7b1
-SHA1: b1b2693a2d862a064d04cdf4096a7badce21ef77
-MD5sum: 8f90d9c3f19aae948f84146bb772b16f
+Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.11_all.deb
+Size: 800568
+SHA256: f3baf5bab2ce68a279f1e4476a88a8c75dc18dfd2df88b0ece841f2e064c2d11
+SHA1: e15333b3b3fbadab78e4d450ef42473c106b1454
+MD5sum: d0420b20fd1fa610efcb7f9fc2976335
 Description: Submenus for Educational Applications
  Educational applications were divided into submenus in the Educational category.
 
