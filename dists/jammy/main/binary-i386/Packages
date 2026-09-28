@@ -15,18 +15,18 @@ Description: Adobe Reader allows you to view navigate and print PDF files. This 
 Installed-Size: 132264
 
 Package: appsedu-ng
-Version: 0.0.8
+Version: 0.0.10
 Installed-Size: 1044
 Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
 Architecture: all
 Depends: xdotool, mesa-utils, zenity
 Priority: optional
 Section: science
-Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.8_all.deb
-Size: 800666
-SHA256: 8700849c988df9e72bb5cc3d222a82d65fddc1acdd4a934c3029b72ed0c8e3a3
-SHA1: c28057eec52ba7878101b3e5b256e0d88f60e400
-MD5sum: 23c605998fafc02d59e63fa1aeb6b418
+Filename: pool/main/a/appsedu-ng/appsedu-ng_0.0.10_all.deb
+Size: 800558
+SHA256: d2a9e946e3af978f1ce79d2440aba28df8a8913b0e26ec212b29bc5c300cd7b1
+SHA1: b1b2693a2d862a064d04cdf4096a7badce21ef77
+MD5sum: 8f90d9c3f19aae948f84146bb772b16f
 Description: Submenus for Educational Applications
  Educational applications were divided into submenus in the Educational category.
 
@@ -424,6 +424,30 @@ Description: GNOME configuration database system (common files)
  This package is for legacy applications and no longer used by GNOME.
 Original-Maintainer: Josselin Mouette <joss@debian.org>
 
+Package: gdis-data
+Source: gdis
+Version: 0.90-6build3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3838
+Breaks: gdis (<< 0.90-2)
+Replaces: gdis (<< 0.90-2)
+Homepage: http://gdis.sourceforge.net
+Priority: optional
+Section: science
+Filename: pool/main/g/gdis/gdis-data_0.90-6build3_all.deb
+Size: 477790
+SHA256: 973f66dabc10540b0e1568ffec30ee5ed10a22619d8988a0bb9237fb9daa2257
+SHA1: 3160265c00248268510a03d389f9df9b81f15707
+MD5sum: 01d1cfd5b3a95663b91136e36514620d
+Description: molecular and crystal model viewer (data files)
+ A GTK+ based program for the display and manipulation of
+ isolated molecules, periodic systems and crystalline habits.
+ It is in development, but is nonetheless fairly functional.
+ .
+ This package contains the GDIS data files.
+Original-Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+
 Package: goldendict-extras-pt
 Version: 0.4.2
 Installed-Size: 73044
@@ -757,6 +781,31 @@ SHA1: 2a8dd1806b575a7ea2e5178756007eba37c044c2
 MD5sum: 2df9d972011ae2a58e08a6e3d151e0d5
 Description: rtl8723du driver in DKMS format.
 Modaliases: 8723du(usb:v0BDApD723d*dc*dsc*dp*icFFiscFFipFFin*)
+
+Package: scratch
+Version: 1.4.0.6~dfsg1-6.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Miriam Ruiz <miriam@debian.org>
+Installed-Size: 46028
+Depends: squeak-vm, gtk-update-icon-cache, shared-mime-info
+Suggests: pulseaudio (>= 1.0.9)
+Homepage: http://scratch.mit.edu
+Priority: optional
+Section: education
+Filename: pool/main/s/scratch/scratch_1.4.0.6~dfsg1-6.1_all.deb
+Size: 25090416
+SHA256: 04793af9ff3c9f8c0f35e8c0c86cad8a25ddaf57eebe83a0e9dc5cfc91b015b4
+SHA1: 920baa6c1133bf56749e79b0e5ef1ba2fbd0b63d
+MD5sum: 77d47e9bb60a60460bec7811be223994
+Description: easy to use programming environment for ages 8 and up
+ Scratch is an easy, interactive, collaborative programming
+ environment designed for creation of interactive stories, animations,
+ games, music, and art -- and sharing these on the web.
+ Scratch is designed to help young people (ages 8 and up) develop 21st
+ century learning skills. As they create Scratch projects, young people
+ learn important mathematical and computational ideas, while also
+ gaining a deeper understanding of the process of design.
 
 Package: seduc-robust-dhcp
 Version: 0.0.1
