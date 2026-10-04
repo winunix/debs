@@ -695,6 +695,23 @@ MD5sum: 9955e45ec32705a2e61c8d7ad22d9493
 Description: Oracle Java Development Kit 17 LTS.
  Official package of java and jdk from oracle and JAVA_HOME variables.
 
+Package: oracle-jdk-25-lts
+Version: 0.0.1
+Installed-Size: 1
+Maintainer: crasheddie <crash.eddie123@gmail.com>
+Architecture: all
+Depends: jdk-25
+Homepage: https://openvpn.net
+Priority: optional
+Section: utils
+Filename: pool/main/o/oracle-jdk-25-lts/oracle-jdk-25-lts_0.0.1_all.deb
+Size: 740
+SHA256: 37991e67abaec21da58a2d9210bb3f117eecc108d15e5f3892325b292708c88d
+SHA1: f844971ac2d9898bfde6d06332d7cb5da1dd3e72
+MD5sum: 3b8fbd09da26410bb3473a6ee41ec11b
+Description: Oracle Java Development Kit 25 LTS.
+ Official package of java and jdk from oracle and JAVA_HOME variables.
+
 Package: python-twodict
 Source: twodict
 Version: 1.2-1
